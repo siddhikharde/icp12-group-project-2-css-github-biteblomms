@@ -23,6 +23,13 @@ body{
     text-decoration: none;
     color: rgb(55, 65, 81);
     font-weight: bold;
+  
+}
+.nav-links a:hover{
+    cursor: pointer;
+   transition: 0.4s ease-in-out;
+    color: rgb(255, 107, 53);
+    text-decoration: underline;
 }
 .cart-button{
   display: flex;
@@ -32,10 +39,28 @@ body{
   padding: 10px 12px;
   background-color:rgb(255, 107, 53);
   border-radius: 8px;
-  font-weight: 600;
-  color: #f0f0f0;
     
+}
+.cart-button a{
+  text-decoration: none;
+   font-weight: 600;
+  color: #f0f0f0;
+  font-size: 16px;
+}
+.cart-button:hover{
+  background-color:#ff4400;
+  cursor: pointer;
+  transition: 0.5s ease;
+   transform: scale(1.1);
+  
 }
 .cart-button img{
   height: 16px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  
 }
