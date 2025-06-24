@@ -1,0 +1,289 @@
+*{
+ background-color: #f0f0f0; 
+}
+.menu{
+    color: rgb(17,24,39);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:35px;
+    font-weight: bold;
+    text-align: center
+
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ; */
+
+.specification1{
+    color: rgb(17,24,39);
+    text-align: center;
+    margin-top: 20px;
+    transition-duration: 1s;
+    
+}
+.food-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* spacing between boxes */
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
+    margin-top: 10px;
+    transition-duration: 2s;
+}
+h1{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+}
+.changed-color{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(229,231,235);
+    font-size: 30px;
+    color: orange;
+}
+/* Box 1*/
+.food1{
+    height: 250px;
+    width: 290px;
+    background-color: white;
+    border: 2px solid rgb(226, 210, 210);
+    border-radius: 10px;
+    transition-duration: 1s;
+    align-items: center; 
+    box-shadow:0px 0px 4px 4px #f4e1be;   
+}
+.img1{
+    background-color: white;
+    padding-top: 5px;
+    transform: translatex(130px);
+}
+.text{
+     background-color: white;
+     font-family: serif;
+     font-weight: 100;
+     align-items: center;
+     text-align: center;
+}
+.food1:hover{
+    height: 260px;
+    width: 300px;
+    background-image: url(../images/food1.png);
+    box-shadow:0px 0px 15px 10px #fddb9d; 
+    background-color: white;
+    background-size:cover;
+    border-radius: 15px;
+}
+.food1:hover .text{
+    display: none;
+}
+span{
+    background-color: white;
+    font-family: Georgia;
+    font-weight: 1000;
+    font-size: 20px;
+}
+/* Box 2*/
+
+.food2{
+    height: 250px;
+    width: 290px;
+    background-color: white;
+    border: 2px solid rgb(226, 210, 210);
+    border-radius: 10px;
+    transition-duration: 1s;
+    align-items: center; 
+    box-shadow:0px 0px 4px 4px #f4e1be;   
+}
+.img2{
+    background-color: white;
+    padding-top: 5px;
+    transform: translatex(130px);
+}
+.text{
+     background-color: white;
+     font-family: serif;
+     font-weight: 100;
+     align-items: center;
+     text-align: center;
+}
+.food2:hover {
+    height: 260px;
+    width: 300px;
+    background-image: url(../images/food2.png);
+    box-shadow: 0px 0px 15px 10px #fddb9d;
+    background-color: white;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.food2:hover .text {
+    display: none;
+}
+
+span{
+    background-color: white;
+    font-family: Georgia;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+/* box3 */
+
+
+.food3{
+    height: 250px;
+    width: 290px;
+    background-color: white;
+    border: 2px solid rgb(226, 210, 210);
+    border-radius: 10px;
+    transition-duration: 1s;
+    align-items: center; 
+    box-shadow:0px 0px 4px 4px #f4e1be;   
+}
+.img3{
+    background-color: white;
+    padding-top: 5px;
+    transform: translatex(130px);
+}
+.text{
+     background-color: white;
+     font-family: serif;
+     font-weight: 100;
+     align-items: center;
+     text-align: center;
+}
+.food3:hover {
+    height: 260px;
+    width: 300px;
+    background-image: url(../images/food3.png);
+    box-shadow: 0px 0px 15px 10px #fddb9d;
+    background-color: white;
+    background-size: cover;
+}
+.food3:hover .text {
+    display: none;
+}
+
+span{
+    background-color: white;
+    font-family: Georgia;
+    font-weight: 1000;
+    font-size: 20px;
+}
+/* box4 */
+
+.food4{
+    height: 250px;
+    width: 290px;
+    background-color: white;
+    border: 2px solid rgb(226, 210, 210);
+    border-radius: 10px;
+    transition-duration: 1s;
+    align-items: center; 
+    box-shadow:0px 0px 4px 4px #f4e1be;   
+}
+.img4{
+    background-color: white;
+    padding-top: 5px;
+    transform: translatex(130px);
+}
+.text{
+     background-color: white;
+     font-family: serif;
+     font-weight: 100;
+     align-items: center;
+     text-align: center;
+}
+.food4:hover {
+    height: 260px;
+    width: 300px;
+    background-image: url(../images/food4.png);
+    box-shadow: 0px 0px 15px 10px #fddb9d;
+    background-color: white;
+    background-size: cover;
+}
+.food4:hover .text {
+    display: none;
+}
+span{
+    background-color: white;
+    font-family: Georgia;
+    font-weight: 1000;
+    font-size: 20px;
+}
+/* box5 */
+
+.food5{
+    height: 250px;
+    width: 290px;
+    background-color: white;
+    border: 2px solid rgb(226, 210, 210);
+    border-radius: 10px;
+    transition-duration: 1s;
+    align-items: center; 
+    box-shadow:0px 0px 4px 4px #f4e1be;   
+}
+.img5{
+    background-color: white;
+    padding-top: 5px;
+    transform: translatex(130px);
+}
+.text{
+     background-color: white;
+     font-family: serif;
+     font-weight: 100;
+     align-items: center;
+     text-align: center;
+}
+.food5:hover {
+    height: 260px;
+    width: 300px;
+    background-image: url(../images/food5.png);
+    box-shadow: 0px 0px 15px 10px #fddb9d;
+    background-color: white;
+    background-size: cover;
+}
+.food5:hover .text {
+    display: none;
+}
+span{
+    background-color: white;
+    font-family: Georgia;
+    font-weight: 1000;
+    font-size: 20px;
+}
+/* box6 */
+.food6{
+    height: 250px;
+    width: 290px;
+    background-color: white;
+    border: 2px solid rgb(226, 210, 210);
+    border-radius: 10px;
+    transition-duration: 1s;
+    align-items: center; 
+    box-shadow:0px 0px 4px 4px #f4e1be;   
+}
+.img6{
+    background-color: white;
+    padding-top: 5px;
+    transform: translatex(130px);
+}
+.text{
+     background-color: white;
+     font-family: serif;
+     font-weight: 100;
+     align-items: center;
+     text-align: center;
+}
+.food6:hover{
+    height: 260px;
+    width: 300px;
+    background-image: url(../images/food6.png);
+    box-shadow:0px 0px 15px 10px #fddb9d; 
+    background-size:cover;
+     border-radius: 15px; 
+}
+.food6:hover .text{
+        display: none;
+        background-color: white;
+    }
+span{
+    background-color: white;
+    font-family: Georgia;
+    font-weight: 1000;
+    font-size: 20px;
+}
