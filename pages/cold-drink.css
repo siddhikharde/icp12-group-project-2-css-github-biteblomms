@@ -34,17 +34,21 @@ a{
   cursor: pointer;
     
 }
+
+
 .btn1:hover{
     color:black;
     background-color: rgb(255,107,53);
     height:35px ;
     width: 95px;
-    box-shadow: 0px 0px 5px 5px rgb(248, 214, 151);   
+    box-shadow: 0px 0px 5px 5px rgb(248, 214, 151);
+    
 }
 .btn1:hover.a{
     background-color: rgb(255,107,53);
     color: black;
 }
+
 h2{
     color: rgb(17,24,39);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -52,45 +56,11 @@ h2{
     font-weight: bold;
     text-align: center;
     color: #eda726;
+
 }  
 .menu{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin-top: 1px;
-}   
-/* Main Course */
-.box1{
-    height: 550px;
-    width: 550px;
-    border: 2px solid  #f0f0f0;;
-    display: inline-block;
-    margin-right:10%;
-    margin-left: 10%;
-}
-.box2{
-    height: 550px;
-    width: 550px;
-    border: 2px solid  #f0f0f0;;
-    display: inline-block;
-}
-.rotating {
-    width: 520px;
-    height: 520px;
-    background-image: url('../images/dish10.png'); 
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    animation: spin 10s linear infinite ;
     
-}
-.plate {
-    width: 550px;
-    height: 550px;
-    background-image: url('../images/dish2.png'); 
-    background-size: cover;
-    background-position: center;
-}   
-     @keyframes spin {
-      100% { transform: rotate(360deg);
-     }
-}                               
+}                                  
