@@ -1,14 +1,44 @@
 *{
  background-color: #f0f0f0; 
 }
-.menu{
+.btn{
+    height: 100px;
+    width: 1000px;
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn1{
+    height:40px ;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid  black;
+    border-radius: 10px;
+}
+.btn1:active{
+    background-color: orange;
+}
+h2{
     color: rgb(17,24,39);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:35px;
+    font-size:50px;
     font-weight: bold;
-    text-align: center
+    text-align: center;
+    color: #eda726;
 
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ; */
+}  
+.menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 1px;
+    
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ; */
 
 .specification1{
     color: rgb(17,24,39);
