@@ -51,7 +51,8 @@
        }
        .about-head{
         color: rgb(17,24,39);
-       
+      padding-top: 50px;
+      padding-bottom: 20px;
        }
        .about-inner-text{
         display: flex;
@@ -62,7 +63,7 @@
        }
       .about-img{
         
-        width:580px;
+        width:595px;
         padding:0 15px;
         border-radius: 30px;
         
@@ -74,7 +75,7 @@
       }
          
       h2{
-        font-size: 40px;
+        font-size: 35px;
       }
       .inner-para{
         font-size: 18px;
@@ -102,7 +103,7 @@
             transform: translateY(-3px);
         }
         .numbers-main-container{
-            background-color:#f0f0f0;
+            background-color:#fff;
             padding-bottom: 60px;
           
         }
