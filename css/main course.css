@@ -42,7 +42,7 @@ a{
     box-shadow: 0px 0px 5px 5px rgb(248, 214, 151);   
 }
 .btn1:hover.a{
-    background-color: rgb(255,107,53);
+    background-color:rgb(255,107,53);;
     color: black;
 }
 h2{
@@ -51,7 +51,7 @@ h2{
     font-size:50px;
     font-weight: bold;
     text-align: center;
-    color: #eda726;
+    color: rgb(255,107,53);
 }  
 .menu{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -222,5 +222,50 @@ h2{
         width: 180px;
     }
 }
-
-
+ /* Thali container */
+.thali1{
+    height: 400px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+   
+}
+.thali1img{
+    height: 180px;
+    width: 350px;
+    border-radius: 15px 15px 0px 0px;
+}
+h4{
+    font-size:23px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text{
+    text-align: center;
+    font-family: serif;
+    font-size: 17px;
+}
+.cart-button{
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(255,107,53);
+    border: 2px solid rgb(255,107,53);
+    border-radius: 15px;
+    font-weight: bold;
+     
+}
+.button{
+    display: flex;
+     align-items: end;
+     padding-left: 100px;
+}
+.price{
+    font-size: 20px;
+    color:black; 
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(255,107,53);
+}
