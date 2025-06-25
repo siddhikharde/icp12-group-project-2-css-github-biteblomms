@@ -266,6 +266,63 @@
         }
 
         .member-role {
-            color: var(--accent-color);
+            color: black;
             margin-bottom: 15px;
+        }
+
+         .mission {
+            background-color:  rgb(255,107,53);
+            color: white;
+            padding: 80px 5%;
+        }
+
+        .mission-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .mission-image {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .mission-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .mission-text {
+            flex: 1;
+        }
+
+        .mission-text h3 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .mission-text p {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .mission-btn {
+            display: inline-block;
+            background-color: white;
+            color:  rgb(255,107,53);
+            padding: 12px 30px;
+            border-radius: 4px;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: all 0.3s;
+            text-decoration: none;
+        }
+
+        .mission-btn:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-3px);
         }
