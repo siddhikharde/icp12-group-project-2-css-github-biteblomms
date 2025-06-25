@@ -142,3 +142,26 @@
            margin: 0px 50px;
             flex-wrap: wrap;
         }
+        .team-member{
+    border: none;
+    border-radius: 15px;
+           border: 1px solid black;
+            margin: 20px 20px;
+              box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+         .member-img {
+            height: 250px;
+            overflow: hidden;
+             border-top-left-radius:15px ;
+             border-top-right-radius:15px ;
+        }
+        
+        .member-img img {
+            height: 100%;
+            object-fit: cover;
+           
+        }
+        
+        .team-member:hover .member-img img {
+            transform: scale(1.1);
+        }
