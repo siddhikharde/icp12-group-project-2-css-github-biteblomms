@@ -103,6 +103,7 @@
         }
         .numbers-main-container{
             background-color:#f0f0f0;
+            padding-bottom: 60px;
           
         }
         .numbers-container{
@@ -112,7 +113,14 @@
         }
         .numbers-small-container{
             background-color: white;
-            padding:20px 50px
+            padding:20px 50px;
+            border-radius: 5px;
+         
+             box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: box-shadow 0.3s ease;
+        }
+        hover:numbers-small-container{
+             box-shadow: 0 15px 30px rgba(0,0,0,0.2);
         }
         .numbers{
             text-align: center;
