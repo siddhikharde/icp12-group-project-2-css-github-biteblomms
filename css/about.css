@@ -47,11 +47,35 @@
        h3{
         font-size: 45px;
         text-align: center;
+       
+       }
+       .about-head{
+        color: rgb(17,24,39);
        }
        .about-inner-text{
-        font-size:19px;
-        
-            max-width: 1000px;
-            margin: 0 auto;
-            text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding:0 40px;
+
        }
+      .about-img{
+        
+        width:550px;
+        padding:0 15px;
+        border-radius: 30px;
+        
+      
+        
+      }
+      .inner-div-2{
+        padding:0 15px;
+      }
+         
+      h2{
+        font-size: 40px;
+      }
+      .inner-para{
+        font-size: 18px;
+
+      }
