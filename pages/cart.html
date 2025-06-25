@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
-    <style></style>
+    <style>
+        body{
+            margin: 20px;
+            padding: 20px;
+            margin-left: 120px;
+            margin-right: 120px;
+            font-family: Georgia, serif;
+            background-color: #f0f0f0;
+        }
+
+        .cart-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;  
+        }
+
+        .card {
+            width: 320px;
+            height: 180px;
+            background-color: rgb(250, 136, 95);
+            margin-top: 20px;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+        }
+
+        .qty-control button{
+            background-color: rgb(255, 68, 0);
+        }
+
+        .qty-control input{
+            width: 30px;
+        }
+
+    </style>
 </head>
 <body>
-    <h2>My Cart</h2>
+    <h2 align="center">Your Cart</h2>
+    <div class="cart-container">
+        <div class="card">
+            <p>Pizza</p>
+            <h3>Cheesy Pizza</h3>
+            <p>Rs. 250</p>
+            <div class="qty-control">
+              <button>-</button>
+              <input type="number" value="1" min="1">
+              <button>+</button>
+            </div>
+        </div>
+        <div class="card">Card2</div>
+    </div>
 </body>
 </html>
