@@ -101,4 +101,28 @@
             color: white;
             transform: translateY(-3px);
         }
-        
+        .numbers-main-container{
+            background-color:#f0f0f0;
+          
+        }
+        .numbers-container{
+            display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        }
+        .numbers-small-container{
+            background-color: white;
+            padding:20px 50px
+        }
+        .numbers{
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+            color: rgb(255,107,53);
+        }
+        .numbers-text{
+            padding-top: 5px;
+            color: rgb(75,85,99);
+            font-size: 20px;
+
+        }
