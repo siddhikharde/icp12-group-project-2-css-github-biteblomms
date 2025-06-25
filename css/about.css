@@ -152,9 +152,9 @@
         }
         .numbers-small-container{
             background-color: white;
-            padding:20px 50px;
+           width:250px;
             border-radius: 5px;
-         
+         padding:10px 15px;
              box-shadow: 0 5px 15px rgba(0,0,0,0.3);
             transition: box-shadow 0.3s ease;
         }
@@ -171,8 +171,28 @@
             padding-top: 5px;
             color: rgb(75,85,99);
             font-size: 20px;
+            text-align: center;
 
         }
+
+          @media (max-width:600px){
+             .numbers-container{
+            display: flex;
+        flex-direction: column;
+        justify-content:start;
+        align-items:center;
+        }
+        .numbers-small-container{
+            background-color: white;
+           
+            border-radius: 5px;
+         margin:20px 0px;
+             box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition:none;
+        }
+        }
+
+
         .members-container{
             display: flex;
             flex-direction: row;
@@ -181,11 +201,7 @@
             flex-wrap: wrap;
         }
 
-        @media screen (max-width:600px){
-             .numbers-container{
-          gity
-        }
-        }
+      
         .team-member{
     border: none;
     border-radius: 15px;
@@ -208,4 +224,14 @@
         
         .team-member:hover .member-img img {
             transform: scale(1.1);
+        }
+
+        @media(max-width:600px){
+            .members-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+           
+            flex-wrap:nowrap;
+        }
         }
