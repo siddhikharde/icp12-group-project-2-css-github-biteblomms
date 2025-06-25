@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
     <style>
-        body{
-            margin: 20px;
+        body {
+            margin: 10px;
+            margin-top: 0;
             padding: 20px;
             margin-left: 120px;
             margin-right: 120px;
@@ -14,46 +16,169 @@
             background-color: #f0f0f0;
         }
 
-        .cart-container{
+        .cart-container {
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;  
+            justify-content: space-evenly;
         }
 
         .card {
             width: 320px;
-            height: 180px;
-            background-color: rgb(250, 136, 95);
-            margin-top: 20px;
-            border: none;
+            height: 190px;
+            background-color: rgb(255, 107, 53);
+            margin-top: 3px;
+            border: 1px solid rgb(237, 162, 137);
             border-radius: 20px;
-            padding: 10px 20px;
+            padding-left: 25px;
+            padding-right: 20px;
+            padding-bottom: 10px;
         }
 
-        .qty-control button{
-            background-color: rgb(255, 68, 0);
+        .qty-control button {
+            background-color: #000000;
+            border: none;
+            border-radius: 5px;
+            padding: 6px;
+            color: rgb(235, 228, 228);
+            font-size: 12px;
         }
 
-        .qty-control input{
+        .qty-control input {
             width: 30px;
+            height: 14px;
+            text-align: center;
+            padding: 6px;
+            border-radius: 5px;
+            border: none;
+            background-color: #ecd1d1;
         }
 
+        .price {
+            font-size: 17px;
+            font-weight: 600;
+            color: rgb(121, 32, 2);
+        }
+
+        .food-name {
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 600;
+            margin-bottom: 2px;
+            margin-top: 5px;
+        }
+
+        .invoice-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .invoice-box {
+            width: 300px;
+            height: 180px;
+            background-color: rgb(242, 201, 184);
+            margin-top: 20px;
+            border-radius: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .invoice {
+            text-align: center;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .row {
+            width: 300px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border: 1px solid rgb(76, 74, 74);
+        }
+
+        .invoice-align{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .total{
+            display: flex;
+            justify-content: space-between;
+            color: rgb(255, 87, 26);
+            font-weight: 600;
+        }
+
+        .total:hover{
+            color: rgb(193, 66, 20);
+            transition: 0.5s;
+        }
+
+        .check-btn{
+            padding: 10px 20px;
+            background-color: rgb(255, 107, 53);
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
+
 <body>
-    <h2 align="center">Your Cart</h2>
+    <h1 align="center">Your Cart</h1>
     <div class="cart-container">
         <div class="card">
-            <p>Pizza</p>
-            <h3>Cheesy Pizza</h3>
-            <p>Rs. 250</p>
+            <p><img src="./../images/cart-images/pizza-logo.png" height="45px"></p>
+            <p class="food-name">Cheesy Pizza</p>
+            <p class="price">₹270</p>
             <div class="qty-control">
-              <button>-</button>
-              <input type="number" value="1" min="1">
-              <button>+</button>
+                <button>-</button>
+                <input type="number" value="1" min="1">
+                <button>+</button>
             </div>
         </div>
-        <div class="card">Card2</div>
+        <div class="card">
+            <p><img src="./../images/cart-images/fries-logo.png" height="45px"></p>
+            <p class="food-name">Crispy Fries</p>
+            <p class="price">₹110</p>
+            <div class="qty-control">
+                <button>-</button>
+                <input type="number" value="1" min="1">
+                <button>+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="invoice-container">
+        <div class="invoice-box">
+            <div class="invoice">Invoice</div>
+            <hr class="row" />
+            <div class="invoice-align">
+                <span>Subtotal</span>
+                <span>₹380</span>
+            </div>
+            <div class="invoice-align">
+                <span>Tax (5%)</span>
+                <span>₹18.80</span>
+            </div>
+            <hr class="row"/>
+            <div class="total">
+                <span>Total</span>
+                <span>₹398.80</span>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button class="check-btn">Proceed to Checkout</button>
     </div>
 </body>
+
 </html>
