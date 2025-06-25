@@ -222,9 +222,11 @@ body {
   }
 
   .btn-container {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 20px;
 
   }
  
@@ -251,4 +253,71 @@ body {
 .text-container-2 p{
    font-size: 18px;
   color: rgb(55, 65, 81);
+}
+
+.features-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  gap: 20px;
+  
+}
+.feature{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  padding: 40px 10px;
+  border:solid 1px#cccccc;
+  background-color:#e6e6e6;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px #7e7b7b;
+}
+.feature:hover{
+  transform: translateY(-10px);
+  transition: 1s ease-in-out;
+}
+.feature-img{
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.truck{
+   background-color: #ffddcc;
+}
+.truck:hover{
+  background-color: #ffccb3;
+  transition: 1s;
+}
+.star{
+  background-color:  #c3efec;
+}
+.star:hover{
+  background-color:#aeeae6 ;
+  transition: 1s;
+}
+.secure{
+  background-color:#fce8b6;
+}
+.secure:hover{
+  transition: 1s;
+  background-color:#fbe09d ;
+}
+.feature span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.feature p{
+  font-size: 15px;
+  text-align: center;
+  line-height: 20px;
+  color: rgb(55, 65, 81); ;
 }
