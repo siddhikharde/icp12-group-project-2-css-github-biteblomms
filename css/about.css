@@ -103,7 +103,7 @@
             transform: translateY(-3px);
         }
         .numbers-main-container{
-            background-color:#fff;
+            background-color:#f0f0f0;
             padding-bottom: 60px;
           
         }
@@ -134,4 +134,11 @@
             color: rgb(75,85,99);
             font-size: 20px;
 
+        }
+        .members-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+           margin: 0px 50px;
+            flex-wrap: wrap;
         }
