@@ -210,10 +210,6 @@ body {
     filter: none;
   }
 
-  .text-container span {
-    
-  }
-
   .text-container p {
     padding-left: 0px;
     padding-right: 0px;
@@ -453,10 +449,11 @@ body {
 }
 .menu-btn-container{
   margin-top: 45px;
-  margin-bottom: 45px;
+  margin-bottom: 80px;
 }
 .menu-btn a{
   font-size: 17px;
+  
 }
 
 @media (max-width:766px) {
@@ -489,7 +486,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 15px 20px;
+  padding: 20px 20px;
   border: none;
   border-radius: 8px;
   font-size: 16px;
@@ -516,19 +513,124 @@ body {
   text-align: center;
   padding: 5px ;
 }
-.ready-to-order h1{
-  font-size: 30px;
-}
+
 
 @media (max-width:766px) {
   .ready-to-order{
   padding: 50px 20px;
 }
 .ready-to-order span{
-  
   color: rgb(253, 234, 200);
   text-align: center;
   padding: 5px ;
 }
 
+}
+
+.footer-container{
+   background-color:  #111827;
+   display: flex;
+   flex-direction: column;
+
+}
+.footer{
+  display: flex;
+ padding-top: 30px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: auto;
+  border-bottom: solid 1px #3e4043;
+  padding-bottom:20px ;
+  margin-bottom: 30px;
+}
+.about{
+  width: 300px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  text-align: start;
+  justify-content: flex-start;
+  color: rgb(209, 213, 219);
+  padding: 20px;
+}
+.about img{
+  height: 40px;
+  width: 170px;
+}
+.about p{
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.location-container{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  color: rgb(209, 213, 219);
+  width: 300px;
+}
+
+.location-sub-container{
+ display: flex;
+ align-items: start;
+ justify-content: start;
+ flex-direction: column;
+  gap: 10px;
+}
+.loaction-info{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+ gap: 7px;
+ padding-right: 10px;
+}
+.loaction-icon img{
+ height: 23px;
+}
+.loaction-text{
+  font-size: 15px;
+  line-height: 25px;
+}
+.loaction-text a{
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(209, 213, 219);
+}
+
+.operating-hours{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  color: rgb(209, 213, 219);
+}
+.hours-container{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  gap: 8px;
+}
+.hours-container img{
+  height: 22px;
+}
+.houres{
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.operating-hours p{
+   font-size: 12px;
+   text-align: center;
+   color: rgb(148, 139, 139);
+}
+.copy-right{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+ color: rgb(148, 139, 139);
+  margin-bottom: 40px;
+  font-size: 15px
 }
