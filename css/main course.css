@@ -690,6 +690,7 @@ h4{
     border-radius: 10px;
     margin-top: 70px;
     background-color: white;
+    
 }
 .review1{
      height: 35px;
@@ -732,7 +733,12 @@ h4{
      background-color: white;
      padding-left: 13px;
      padding-right:13px;
-
+}
+.review-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:5px;
 }
 
 
