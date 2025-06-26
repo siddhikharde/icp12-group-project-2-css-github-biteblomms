@@ -401,14 +401,14 @@ body {
    box-sizing: border-box;
 }
 .card-img{
-  object-fit: cover;
+  object-fit: unset;
     height: 180px;
    min-width: 100%;
    width: auto;
     border-radius: 15px 15px 0px 0px;
 }
 .img-container{
-  background-color:#8c8c8c;
+  background-color: #737373;
   border-radius: 15px 15px 0px 0px ;
 }
 .card-img:hover{
@@ -447,4 +447,10 @@ body {
 }
 .stars span{
  color: #FFC107;
+}
+.menu-btn-container{
+  margin-top: 45px;
+}
+.menu-btn a{
+  font-size: 17px;
 }
