@@ -494,6 +494,7 @@ body {
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 20px;
 }
 .ready-to-order-btn a{
    color: rgb(255, 107, 53) ;
@@ -508,7 +509,26 @@ body {
   transform: scale(1.03);
   transition: 0.4s ;
 }
-.ready-to-order p{
-  font-size: 18px;
+.ready-to-order span{
+  font-size: 17px;
+  line-height: 25px;
   color: rgb(253, 234, 200);
+  text-align: center;
+  padding: 5px ;
+}
+.ready-to-order h1{
+  font-size: 30px;
+}
+
+@media (max-width:766px) {
+  .ready-to-order{
+  padding: 50px 20px;
+}
+.ready-to-order span{
+  
+  color: rgb(253, 234, 200);
+  text-align: center;
+  padding: 5px ;
+}
+
 }
