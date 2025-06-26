@@ -116,7 +116,7 @@ h2{
     
 }
 
-@media (max-width:1300px) {
+@media (max-width:1300px)and (min-width:1100px) {
     .btn{
     height: 90px;
     width: 500px;
@@ -164,7 +164,15 @@ h2{
     background-image: url('../images/dish2.png'); 
     background-size: cover;
     background-position: center;
-}   
+}  
+.thali1{
+    height: 100px;
+    width: 10px;
+    border: 2px solid  #f0f0f0;
+    border-radius: 15px;
+    background-color: white;
+} 
+
 }
 
 @media (max-width:1100px){
@@ -206,21 +214,31 @@ h2{
 }
 @media (max-width:700px){
     .box1{
-        height: 180px;
-        width: 180px;
+        height: 220px;
+        width: 220px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: auto;
     }
     .box2{
-        height: 180px;
-        width: 180px;
+       display: none;
     }
     .rotating{
-         height: 180px;
-        width: 180px;
+         height: 220px;
+        width: 220px;
     }
     .plate{
          height: 180px;
         width: 180px;
     }
+    .thali1{
+    height: 400px;
+    width: 330px;
+    border: 2px solid  #f0f0f0;
+    border-radius: 15px;
+    background-color: white;
+}
 }
  /* Thali container */
  /* Thali 1 */

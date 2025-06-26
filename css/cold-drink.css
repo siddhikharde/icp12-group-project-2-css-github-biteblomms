@@ -1,66 +1,145 @@
 *{
- background-color: #f0f0f0; 
+    background-color: #f0f0f0;
 }
-.btn{
+.btn {
     height: 100px;
-    width: 1000px;
+    width: 100%;
     margin-top: 20px;
     gap: 30px;
     display: flex;
-    margin-left: auto;
-    margin-right:auto;
-    display: flex;
     justify-content: center;
-    cursor: pointer;
+    align-items: center;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-.btn1{
-     display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  width: 120px;
-  font-size: 15px;
-  font-weight: bold;
-  border: 2px solid black;
-  border-radius: 10px;
-  background-color: white;
-  color: black;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  cursor: pointer;
-    
+
+.btn1 {
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-
-.btn1:hover{
-    color:black;
+.btn1:hover {
     background-color: rgb(255,107,53);
-    height:35px ;
-    width: 95px;
     box-shadow: 0px 0px 5px 5px rgb(248, 214, 151);
-    
-}
-.btn1:hover.a{
-    background-color: rgb(255,107,53);
-    color: black;
 }
 
-h2{
-    color: rgb(17,24,39);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:50px;
+/* Menu heading */
+.menu h2 {
+    color: #eda726;
+    font-family: Georgia, serif;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
-    color: #eda726;
+}
 
-}  
-.menu{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.menu {
     text-align: center;
-    margin-top: 1px;
+    margin-top: 10px;
+}
+hr{
+    background-color: white;
+}
+
+.drink-container {
     
-}                                  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px auto;
+    max-width: 1200px;
+}
+.ColdDrink {
+    width: 350px;
+    background-color: white;
+    border: 2px solid #f0f0f0;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.ooo{
+     background-color: white;
+}
+
+.drink-info h1 {
+     background-color: white;
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: Georgia, serif;
+}
+
+.drink-info span {
+    font-size: 18px;
+    font-family: serif;
+    display: block;
+    text-align: left;
+    padding: 0 10px;
+     background-color: white;
+}
+
+.Drink {
+     background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    transition: transform 0.5s ease;
+    
+}
+
+.Drink:hover {
+    transform: rotate(30deg);
+}
+
+.cart-button {
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(255,107,53);
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.cart-button:hover {
+    background-color: red;
+    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118);
+    height: 45px;
+    width: 145px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255,107,53);
+    background-color: white;
+    margin: 10px 0;
+}
+
+.del {
+    background-color: #f0f0f0;
+}
