@@ -55,7 +55,7 @@ h2{
     font-size:50px;
     font-weight: bold;
     text-align: center;
-    color: #eda726;
+    color: rgb(255,107,53);
 
 }  
 .menu{
@@ -75,8 +75,8 @@ h2{
 .food-container {
     display: flex;
     justify-content: center;
-    gap: 40px; /* spacing between boxes */
-    flex-wrap: wrap; /* allows wrapping on smaller screens */
+    gap: 40px;
+    flex-wrap: wrap; 
     margin-top: 10px;
     transition-duration: 2s;
 }
@@ -88,7 +88,7 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:rgb(229,231,235);
     font-size: 30px;
-    color: orange;
+    color: rgb(255,107,53);
 }
 /* Box 1*/
 .food1{
