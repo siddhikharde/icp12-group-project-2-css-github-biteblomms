@@ -386,61 +386,66 @@ body {
 
 }
 
-.fav-container{
-  background-color: #F9FAFB;
+ .card{
+  padding: 0px;
+    width: 350px;
+    border: 2px solid  #f0f0f0;
+    border-radius: 15px;
+    background-color:white;
+    padding-bottom:10px ;
 }
-.fav-card-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../images/home-images/burgure.jpg);
-  width: 350px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.card:hover{
+    
+   transform: translateY(-6px);
+   transition: 0.5s ease;
+   box-shadow: 2px 3px 5px 2px #7e7b7b;
+   box-sizing: border-box;
+}
+.card-img{
+  object-fit: cover;
+    height: 180px;
+   min-width: 100%;
+   width: auto;
+    border-radius: 15px 15px 0px 0px;
+}
+.img-container{
+  background-color:#8c8c8c;
+  border-radius: 15px 15px 0px 0px ;
+}
+.card-img:hover{
+   mix-blend-mode: overlay;
+   transition: 0.5s;
+
 }
 .price-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
- background-color: white;
+  padding: 15px;
+  padding-left: 20px;
+  line-height: 30px;
 }
 .price-container span{
-  font-size: 20px;
-  font-weight: 600;
+    font-size:18px;
+    font-weight: 500;
+     background-color: white;
 }
+
 .price{
+    font-size: 19px;
+    color:black; 
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(255,107,53);
+    border-radius: 0px 0px 15px 15px;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.stars{
   display: flex;
-  align-items:center;
-  justify-content:space-evenly;
+  gap: 3px;
 }
-.fav-card{
- 
-  border: solid 2px rgb(229, 231, 235);
-  border-radius: 15px;
-  margin-bottom: 200px;
-}
-.fav-card img{
-  border-radius: 15px 15px 0px 0px;
-}
-.fav-card h3{
-  text-align: center;
-}
-
-.fav-card-front-container{
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
-  height: auto;
-  position: relative;
-}
-.fav-card-container:hover{
-  opacity: 9;
-  transform:scale(1.1) ;
-
+.stars span{
+ color: #FFC107;
 }
