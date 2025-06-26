@@ -472,5 +472,43 @@ body {
    box-shadow: 2px 3px 5px 2px #7e7b7b;
   
 }
+}
 
+.ready-to-order{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 107, 53) ;
+  color: white;
+  padding: 50px 200px;
+}
+.ready-to-order-btn{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.ready-to-order-btn a{
+   color: rgb(255, 107, 53) ;
+   text-decoration: none;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+}
+.ready-to-order-btn:hover{
+  transform: scale(1.03);
+  transition: 0.4s ;
+}
+.ready-to-order p{
+  font-size: 18px;
+  color: rgb(253, 234, 200);
 }
