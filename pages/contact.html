@@ -5,139 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <style>
-        body {
-            font-family: Georgia, serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-
-        .contact {
-            max-width: 1200px;
-            margin: auto;
-            padding: 40px 20px;
-        }
-
-        .contact-heading {
-            text-align: center;
-            color: rgb(17, 24, 39);
-            margin-bottom: 30px;
-        }
-
-        .contact-info {
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 30px;
-        }
-
-        .contact-logo {
-            display: flex;
-            align-items: center;
-            padding-top: 10px;
-        }
-
-        .logo {
-            height: 25px;
-            margin-right: 10px;
-        }
-
-        .contact-text-heading {
-            font-size: 22px;
-            font-weight: bold;
-        }
-
-        .contact-text {
-            font-size: 16px;
-            color: rgb(0, 0, 0);
-        }
-
-        .info-box {
-            width: 330px;
-            background-color: rgb(255, 107, 53);
-            padding: 20px;
-            border-radius: 10px;
-            cursor: pointer;
-            animation: test 3s;
-        }
-
-        @keyframes test{
-            0% {
-                margin-left: 0;
-                margin-right: 0;
-            }
-
-            50% {
-                margin-top: 20px
-            }
-
-            100% {
-                margin-left: 0;
-                margin-right: 0;
-            }
-        }
-
-        .info-box:hover {
-            background-color: #d55121;
-            transition: 0.5s;
-            box-shadow: 1px 1px 10px 1px #d55121;
-            transform: scale(1.1);
-        }
-
-        .contact-form {
-            background-color: rgb(238, 201, 186);
-            padding: 25px;
-            border-radius: 10px;
-            max-width: 700px;
-            margin: auto;
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-            width: 670px;
-            padding: 12px;
-            margin-bottom: 15px;
-            border: 1px solid #ddd;
-            border-radius: 6px;
-        }
-
-        .contact-form button {
-            padding: 12px 25px;
-            background-color: rgb(255, 107, 53);
-            color: rgb(255, 255, 255);
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        .contact-form button:hover {
-            background-color: #d55121;
-            margin-top: 2px;
-            margin-right: 1px;
-            transition: 0.5s;
-            box-shadow: 1px 1px 10px 1px #d55121;
-            transform: scale(1.1);
-        }
-
-        .map-heading {
-            text-align: center;
-            margin-top: 60px;
-            color: rgb(17, 24, 39);
-        }
-
-        .map-box {
-            width: 1170px;
-            height: 300px;
-            margin: 10px;
-        }
-
-        .contact-link {
-            text-decoration: none;
-            font-size: 16px;
-            color: rgb(0, 0, 0);
-        }
-    </style>
+    <link rel="stylesheet" href="./../pages/contact.css">
 </head>
 
 <body>
@@ -147,7 +15,7 @@
         <div class="contact-info">
             <div class="info-box">
                 <div class="contact-logo">
-                    <img src="./../images/contact-address-logo.png" class="logo">
+                    <img src="./../images/contact-images/address-logo.png" class="logo">
                     <span class="contact-text-heading">Address</span>
                 </div>
                 <p class="contact-text"><a href="https://maps.app.goo.gl/dwggoSJBeRyNRwLj7" target="_blank"
@@ -159,7 +27,7 @@
 
             <div class="info-box">
                 <div class="contact-logo">
-                    <img src="./../images/contact-phone-logo.png" class="logo">
+                    <img src="./../images/contact-images/phone-logo.png" class="logo">
                     <span class="contact-text-heading">Phone</span>
                 </div>
                 <p class="contact-text"><a href="tel:+91-9723548912" class="contact-link">+91-9723548912</a></p>
@@ -167,11 +35,11 @@
 
             <div class="info-box">
                 <div class="contact-logo">
-                    <img src="./../images/contact-email-logo.png" class="logo">
+                    <img src="./../images/contact-images/email-logo.png" class="logo">
                     <span class="contact-text-heading">Email</span>
                 </div>
                 <p class="contact-text"><a href="mailto:support@biteblomms.com"
-                        class="contact-link">support@biteblomms.com</a></p>
+                        class="contact-link">support@byteblomms.com</a></p>
             </div>
         </div>
 
@@ -193,5 +61,4 @@
         </div>
 
 </body>
-
 </html>
