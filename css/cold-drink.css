@@ -73,6 +73,7 @@ hr{
 }
 .ooo{
      background-color: white;
+     
 }
 
 .drink-info h1 {
@@ -101,7 +102,7 @@ hr{
 }
 
 .Drink:hover {
-    transform: rotate(30deg);
+    transform: rotate(15deg);
 }
 
 .cart-button {
