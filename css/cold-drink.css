@@ -119,6 +119,7 @@ h1{
     }
 }
 /* Cold drink */
+/* Drink 1 */
 .drink1{
     height: 400px;
     width: 250px;
@@ -228,4 +229,12 @@ h4{
     background-color: white;
     font-weight: bold;
     color:blue;
+}
+.drink-container{
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+    flex-wrap: wrap;
+    margin-top: 10px; 
+    justify-content: center;
 }
