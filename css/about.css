@@ -71,41 +71,65 @@
         
       
         
+        /* About Section */
+        .about-section {
+            padding: 80px 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 36px;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+
+        .section-title p {
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
         .about-content {
             display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
+            gap: 50px;
             align-items: center;
-            padding:20px 50px;
+            margin-bottom: 60px;
         }
-        
-        .about-img {
-            flex: 1;
-            border-radius: 10px;
-            width:530px;
-            height: 430px;
-          
-        }
-        
+
         .about-text {
             flex: 1;
-            padding: 0px 50px;
-            
         }
-        
-        .about-text h2 {
-            font-size: 2rem;
+
+        .about-text h3 {
+            font-size: 28px;
             margin-bottom: 20px;
-            
+            color: var(--primary-color);
         }
-        .about-inner-text{
-            color: rgb(255,107,53);
-        }
-        
+
         .about-text p {
-            margin-bottom: 15px;
-          
+            margin-bottom: 20px;
+            color: #555;
         }
+
+        .about-image {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
         .btn {
             display: inline-block;
             background: rgb(255,107,53);
@@ -128,35 +152,7 @@
             transform: translateY(-3px);
         }
 
-        @media(max-width:600px){
-            .section-title {
-            text-align:center;
-           
-            font-size: 35px;
-           
-        }
-         .about-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            padding:20px 50px;
-        }
-        .about-img {
-            flex: 1;
-            border-radius: 10px;
-            width:fit-content;
-          
-            height: 430px;
-          
-        }
-         .about-text {
-          text-align: start;
-          padding: 0px;
-           margin: 0px;
-            
-        }
-        }
+       
         
       
         .numbers-main-container{
