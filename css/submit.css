@@ -1,0 +1,39 @@
+*{
+    background-color: #f0f0f0; ;
+}
+.body{
+    color: black;
+    height: 700px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255,107,53);
+    font-size: 50px;
+    font-weight:bold;
+    text-align: center;
+}
+.back-button{
+    font-size:21px;
+    font-weight: bold;
+    height: 36px;
+    width: 100px;
+    border-radius: 7px;
+    color:black;
+    background-color: white;
+}
+.back-button a{
+    background-color: white;
+    text-decoration: none;
+}
+.back-button:hover{
+    background-color: rgb(255,107,53);
+    height: 37px;
+    width: 98px;
+}
+.back-button a:hover{
+    background-color: rgb(255,107,53); 
+}
