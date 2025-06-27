@@ -103,12 +103,8 @@ body {
 }
 
 .main-container {
-  background-image: url(../images/home-images/backround-img.jpg), linear-gradient(135deg, #edd0bc, #eacdba, transparent);
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+ 
+ 
   width: 100%;
   min-height: 90vh;
   height: auto;
@@ -239,14 +235,14 @@ body {
     padding: 0;
   }
 
-  .btn-container {
+  /* .btn-container {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 20px;
 
-  }
+  } */
 
   .main-container{
     /* background-image: none;
