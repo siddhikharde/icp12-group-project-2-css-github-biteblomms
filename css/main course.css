@@ -740,54 +740,27 @@ h4{
     flex-wrap: wrap;
     gap:5px;
 }
-.form{
-    height: 290px;
-    width: 1150px;
-    border: 2px solid rgb(228, 225, 225);
-    margin-top:  50px;
-    margin-left: 10%;
-    padding-left: 50px;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    align-items: baseline;
-    justify-content: space-evenly;
-    border-radius: 15px;
-
-}
-.feedback{
-    height: 190px;
-    width: 1100px;
-    border: 2px solid #f0f0f0; 
-    margin-top: 40px;
-    background-color: white;
-    margin: auto;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 20px 0px 10px 10px;
-    text-align: center;
-    justify-content: space-evenly;
-    border-radius: 15px;
-
-}
+/* form */
 form{
     background-color: white;
 }
 label{
     background-color: white;
-    
-
+    font-size: 25px;
+    font-weight: bold;
 }
-#name,#rating{
+.name1{
+    font-size: 20px; 
+    text-align: center;
+    background-color: white;
+    font-weight:50px;
+}
+#rating{
     height: 30px;
     width: 190px;
     border-radius: 10px;
     text-align: center;
     font-size: 20px;
-      
 }
 #comment{
      height: 30px;
@@ -808,7 +781,8 @@ a{
     background-color: rgb(255,107,53);
     border: 2px solid rgb(255,107,53);
     border-radius: 15px;
-    font-weight: bold;  
+    font-weight: bold;
+    
 }
 .submit:hover{
     height: 32px;
@@ -819,4 +793,48 @@ a{
 .submit a:hover{
     background-color: red;
 
+} 
+.form1{
+    height: 390px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #f0f0f0;
+    padding: 40px;
+    justify-content: center;
+    margin-left: 200px;
+
+}
+.form1 form {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+ 
+}
+.form1 h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:rgb(255,107,53);
+  background-color: white;
+}
+.form1 input,
+.form1 select{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+   border: 2px solid gray;
+}
+#rating{
+    height: 43px;
+    width: 500px;
+}
+.name{
+    background-color:#f0f0f0; 
+} 
+.center{
+    padding-left: 180px;
+    background-color: white;
 }
