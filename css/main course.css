@@ -247,12 +247,13 @@ h2{
     border: 2px solid  #f0f0f0;
     border-radius: 15px;
     background-color: white;
+     box-shadow: 0px 0px 5px 5px rgb(220, 216, 216); 
 }
 .thali1:hover{
     height: 430px;
     width: 350px;
     border: 2px solid  #f0f0f0; 
-    box-shadow: 0px 0px 10px 10px rgb(242, 186, 81);
+    box-shadow: 0px 0px 10px 10px rgba(128, 128, 128, 0.72);
 }
 .thali1img{
     height: 180px;
@@ -319,12 +320,13 @@ h4{
     background-color: white;
     display: inline-block;
     margin-left: 40px;
+     box-shadow: 0px 0px 5px 5px rgb(220, 216, 216); 
 }
 .thali1:hover{
     height: 430px;
     width: 350px;
     border: 2px solid  #f0f0f0; 
-    box-shadow: 0px 0px 10px 10px rgb(242, 186, 81);
+    box-shadow: 0px 0px 10px 10px rgba(128, 128, 128, 0.72);
 }
 .thali1img{
     height: 180px;
@@ -362,7 +364,7 @@ h4{
     height: 45px;
     width: 145px;
     background-color: red;
-    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ;
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.72);
 }
 
 .button{
@@ -380,7 +382,7 @@ h4{
      background-color: white;
 }
 .del{
-    background-color:  #f0f0f0;
+    background-color: #f0f0f0;
 }
 
 /* Thali3 */
@@ -390,14 +392,14 @@ h4{
     border: 2px solid  #f0f0f0;
     border-radius: 15px;
     background-color: white;
-    
+     box-shadow: 0px 0px 5px 5px rgb(220, 216, 216); 
     margin-left: 40px;
 }
 .thali1:hover{
     height: 430px;
     width: 350px;
     border: 2px solid  #f0f0f0; 
-    box-shadow: 0px 0px 10px 10px rgb(242, 186, 81);
+    box-shadow: 0px 0px 10px 10px rgba(128, 128, 128, 0.72);
 }
 .thali1img{
     height: 180px;
@@ -435,7 +437,7 @@ h4{
     height: 45px;
     width: 145px;
     background-color: red;
-    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ;
+    box-shadow: 0px 0px 5px 5px rgb(128, 128, 128, 0.72);
 }
 
 .button{
@@ -463,14 +465,14 @@ h4{
     border: 2px solid  #f0f0f0;
     border-radius: 15px;
     background-color: white;
-   
+     box-shadow: 0px 0px 5px 5px rgb(220, 216, 216); 
     margin-left: 40px;
 }
 .thali1:hover{
     height: 430px;
     width: 350px;
     border: 2px solid  #f0f0f0; 
-    box-shadow: 0px 0px 10px 10px rgb(242, 186, 81);
+    box-shadow: 0px 0px 10px 10px rgba(128, 128, 128, 0.72);
 }
 .thali1img{
     height: 180px;
@@ -508,7 +510,7 @@ h4{
     height: 45px;
     width: 145px;
     background-color: red;
-    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ;
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.72);
 }
 
 .button{
@@ -526,7 +528,7 @@ h4{
      background-color: white;
 }
 .del{
-    background-color:  #f0f0f0;
+    background-color: #f0f0f0;
 }
 /* Thali 5 */
 .thali1{
@@ -535,14 +537,14 @@ h4{
     border: 2px solid  #f0f0f0;
     border-radius: 15px;
     background-color: white;
-    
+     box-shadow: 0px 0px 5px 5px rgb(220, 216, 216); 
     margin-left: 40px;
 }
 .thali1:hover{
     height: 430px;
     width: 350px;
     border: 2px solid  #f0f0f0; 
-    box-shadow: 0px 0px 10px 10px rgb(242, 186, 81);
+    box-shadow: 0px 0px 10px 10px rgba(128, 128, 128, 0.72);
 }
 .thali1img{
     height: 180px;
@@ -580,7 +582,7 @@ h4{
     height: 45px;
     width: 145px;
     background-color: red;
-    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ;
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.72);
 }
 
 .button{
@@ -607,14 +609,14 @@ h4{
     border: 2px solid  #f0f0f0;
     border-radius: 15px;
     background-color: white;
-    
+    box-shadow: 0px 0px 5px 5px rgb(220, 216, 216);  
     margin-left: 40px;
 }
 .thali1:hover{
     height: 430px;
     width: 350px;
     border: 2px solid  #f0f0f0; 
-    box-shadow: 0px 0px 10px 10px rgb(242, 186, 81);
+    box-shadow: 0px 0px 8px 5px rgba(128, 128, 128, 0.72);
 }
 .thali1img{
     height: 180px;
@@ -646,13 +648,14 @@ h4{
     background-color: rgb(255,107,53);
     border: 2px solid rgb(255,107,53);
     border-radius: 15px;
-    font-weight: bold;  
+    font-weight: bold;
+  
 }
 .cart-button:hover{
     height: 45px;
     width: 145px;
     background-color: red;
-    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ;
+    box-shadow: 0px 0px 2px 1px red;
 }
 
 .button{
@@ -695,7 +698,7 @@ h4{
 .review1{
      height: 35px;
     width: 100px;
-    border: 2px solid #f0f0f0; 
+    border: 2px solid  white;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -724,7 +727,7 @@ h4{
   flex-direction: row;
   justify-content: center;
   padding-top: 0px;
-   background-color: white;
+  background-color: white;
 }
 .text-review{
      font-size: 15px;
@@ -743,6 +746,8 @@ h4{
 /* form */
 form{
     background-color: white;
+    display: flex;
+    justify-content: center;
 }
 label{
     background-color: white;
@@ -782,7 +787,6 @@ a{
     border: 2px solid rgb(255,107,53);
     border-radius: 15px;
     font-weight: bold;
-    
 }
 .submit:hover{
     height: 32px;
@@ -838,3 +842,5 @@ a{
     padding-left: 180px;
     background-color: white;
 }
+ /* box-shadow: 0px 0px 5px 5px rgb(220, 216, 216);  
+  box-shadow: 0px 0px 10px 10px rgba(128, 128, 128, 0.72);hover */
