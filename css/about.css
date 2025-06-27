@@ -76,6 +76,7 @@
             padding: 80px 5%;
             max-width: 1200px;
             margin: 0 auto;
+            padding-bottom: 10px;
         }
 
         .section-title {
@@ -84,8 +85,8 @@
         }
 
         .section-title h2 {
-            font-size: 36px;
-            color: var(--secondary-color);
+            font-size: 46px;
+            color: black;
             margin-bottom: 15px;
         }
 
@@ -106,10 +107,12 @@
             flex: 1;
         }
 
+       
+
         .about-text h3 {
             font-size: 28px;
             margin-bottom: 20px;
-            color: var(--primary-color);
+            color: rgb(255,107,53);
         }
 
         .about-text p {
@@ -122,6 +125,7 @@
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border: 2px solid white;
         }
 
         .about-image img {
@@ -151,6 +155,52 @@
             color:white;
             transform: translateY(-3px);
         }
+
+        @media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-text h3 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .section-title p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-section {
+        padding: 50px 4%;
+    }
+
+    .about-text h3 {
+        font-size: 20px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+    .section-title p {
+        font-size: 14px;
+    }
+}
+
 
        
         
@@ -264,6 +314,58 @@
             color: black;
             margin-bottom: 15px;
         }
+ 
+        @media (max-width: 1024px) {
+    .team-members {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .member-container {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-members {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .member-container {
+        font-size: 40px;
+    }
+
+    .member-card {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (max-width: 480px) {
+    .team {
+        padding: 50px 4%;
+    }
+
+    .team-members {
+        grid-template-columns: 1fr;
+    }
+
+    .member-container {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .member-info {
+        padding: 15px;
+    }
+
+    .member-name {
+        font-size: 18px;
+    }
+
+    .member-role {
+        font-size: 14px;
+    }
+}
 
          .mission {
             background-color:  rgb(255,107,53);
