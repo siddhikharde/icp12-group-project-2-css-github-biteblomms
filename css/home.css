@@ -63,7 +63,7 @@ body {
   text-decoration: underline;
 }
 
-.cart-button {
+/* .cart-button {
   display: flex;
   align-items: center;
   gap: 7px;
@@ -92,7 +92,7 @@ body {
 
 .cart-button img {
   height: 16px;
-}
+} */
 
 @media (max-width: 768px) {
   .nav-links {
@@ -304,9 +304,17 @@ mix-blend-mode: multiply;
   padding: 20px;
 }
 
+@keyframes fadeIn { 
+  to{
+    opacity: 1;
+  }
+}
+
 .text-container-2 h1 {
   font-size: 35px;
   color: rgb(255, 107, 53) ;
+  opacity: 0;
+  animation:fadeIn 2s ease-in forwards ;
 }
 
 .text-container-2 p {
@@ -690,6 +698,37 @@ mix-blend-mode: multiply;
   margin-bottom: 40px;
   font-size: 15px
 }
+.social-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+.social-media ul li{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+ 
+  
+}
+.social-media ul a{
+  text-decoration: none;
+  font-size: 22px;
+  color:#111827;
+
+}
+
 
 @media (max-width:1150px) and (min-width:767px) {
   .footer{
