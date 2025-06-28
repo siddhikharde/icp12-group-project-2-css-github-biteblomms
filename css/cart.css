@@ -15,23 +15,23 @@ body {
     justify-content: space-evenly;
 }
 
-.card {
+.cart-card {
     width: 320px;
     height: 190px;
-    background-color: rgb(255, 107, 53);
+    background-color: #fff7ee;
     margin-top: 3px;
-    border: 1px solid rgb(237, 162, 137);
+    border: 2px solid #ffe0c2;
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 20px;
     padding-bottom: 10px;
+    box-shadow: 0 4px 20px rgba(255, 165, 0, 0.1);
 }
 
-.card:hover {
-    background-color: #d55121;
+.cart-card:hover {
     transition: 0.5s ease;
-    box-shadow: 1px 1px 10px 1px #d55121;
     transform: scale(1.1);
+    box-shadow: 0 6px 25px rgba(255, 165, 0, 0.2);
 }
 
 .card-heading {
@@ -40,25 +40,26 @@ body {
 }
 
 .qty-control button {
-    background-color: #000000;
+    background-color: rgb(255, 107, 53);
     border: none;
     border-radius: 5px;
-    padding: 6px;
-    color: rgb(235, 228, 228);
+    padding: 8px;
+    color: rgb(0, 0, 0);
     font-size: 12px;
+    transition: background-color 0.2s ease;
 }
 
 .qty-control input {
     width: 30px;
-    height: 14px;
+    height: 18px;
     text-align: center;
     padding: 6px;
     border-radius: 5px;
     border: none;
-    background-color: #ecd1d1;
+    background-color: #ffe0c2;
 }
 
-.price {
+.cart-price {
     font-size: 17px;
     font-weight: 600;
     color: rgb(121, 32, 2);
@@ -80,7 +81,7 @@ body {
 .invoice-box {
     width: 300px;
     height: 180px;
-    background-color: rgb(242, 201, 184);
+    background-color: #fbe0c0;
     margin-top: 20px;
     border-radius: 20px;
     padding-left: 30px;
@@ -157,9 +158,10 @@ body {
         width: 200px;
         height: 190px;
     }
+
     .cart-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
