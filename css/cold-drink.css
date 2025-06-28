@@ -235,3 +235,42 @@ h4{
     margin-top: 10px; 
     justify-content: center;
 }
+/* fixed */
+.fixed {
+    position: fixed;
+    right: 10px;
+    top: 310px;
+    rotate: 270deg;
+    height: 45px;
+    width: 150px;
+    background-color: rgb(255, 107, 53);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed a{
+    color: white;
+    background-color:rgb(255,107,53) ;
+
+}
+@media (max-width: 1400px) {
+  .fixed {
+    left: 90%;
+  }
+}
+@media (max-width: 800px) {
+    .fixed {
+        top: 300px;
+        right: 25px;
+        rotate: 270deg; 
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
