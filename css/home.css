@@ -63,36 +63,7 @@ body {
   text-decoration: underline;
 }
 
-/* .cart-button {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  border: none;
-  padding: 10px 12px;
-  background-color: rgb(255, 107, 53);
-  border-radius: 8px;
-  margin-right: 20px;
 
-}
-
-.cart-button a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #f0f0f0;
-  font-size: 16px;
-}
-
-.cart-button:hover {
-  background-color: #cc5900;
-  cursor: pointer;
-  transition: 0.5s ease;
-  transform: scale(1.03);
-
-}
-
-.cart-button img {
-  height: 16px;
-} */
 
 @media (max-width: 768px) {
   .nav-links {
@@ -370,11 +341,11 @@ mix-blend-mode: multiply;
   transition: 1s;
 }
 
-.star {
+.feature-star {
   background-color: #c3efec;
 }
 
-.star:hover {
+.feature-star:hover {
   background-color: #aeeae6;
   transition: 1s;
 }
@@ -481,7 +452,7 @@ mix-blend-mode: multiply;
      background-color: white;
 }
 
-.price{
+.price1{
     font-size: 19px;
     color:black; 
     text-align: center;
@@ -752,8 +723,6 @@ mix-blend-mode: multiply;
 
 }
 
-
-
 .main-box{
   background-color: transparent;
 }
@@ -775,7 +744,7 @@ mix-blend-mode: multiply;
   position: fixed;
   top: 0;
   right: -300px;
-  height: 92vh;
+  height: 85vh;
   padding-bottom: 20px;
   border-radius: 0px 0px 0px 25px;
   width: 270px;
@@ -842,7 +811,7 @@ mix-blend-mode: multiply;
   text-align: center;
 }
 .sidebar-menu .menu li:hover{
- box-shadow: 0 1px 6px rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 10px 1px rgb(137, 136, 136);
   transform: translateY(-1px);
   transition:  all 0.5s linear;
   background-color: rgba(255, 255, 255, 0.7);

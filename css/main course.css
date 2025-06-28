@@ -1,4 +1,4 @@
-*{
+body{
  background-color: #f0f0f0; 
 }
 .btn{
@@ -473,7 +473,7 @@ label{
     font-size: 20px;    
 }
 a{
- background-color: rgb(255,107,53);
+ 
  color: white;
 }
 .submit{
