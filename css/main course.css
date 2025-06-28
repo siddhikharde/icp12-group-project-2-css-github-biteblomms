@@ -490,7 +490,6 @@ a{
 }
 .submit a:hover{
     background-color: red;
-
 } 
 .form1{
     height: 390px;
@@ -501,7 +500,6 @@ a{
     padding: 40px;
     justify-content: center;
     margin-left: 140px;
-
 }
 .form1 form {
     height: 400px;
@@ -509,7 +507,6 @@ a{
     display: flex;
     flex-direction: column;
     border-radius: 15px;
- 
 }
 .form1 h1 {
   text-align: center;
@@ -578,8 +575,6 @@ a{
     width: 95%;
     font-size: 16px;
   }
-  
-
   .center {
     padding-left: 0;
     display: flex;
