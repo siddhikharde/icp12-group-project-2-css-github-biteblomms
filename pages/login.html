@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Stellar Pizza</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #f9f9f9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .background-image {
+      position: absolute;
+      width: 150px;
+      height: auto;
+      z-index: 1;
+    }
+
+    .top-right {
+      top: 20px;
+      right: 20px;
+    }
+
+    .bottom-left {
+      bottom: 20px;
+      left: 20px;
+    }
+
+    .login-container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.1);
+      text-align: center;
+      z-index: 2;
+      position: relative;
+      animation: slideUp 1s ease-out;
+    }
+
+    @keyframes slideUp {
+      0% {
+        transform: translateY(100px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0px);
+        opacity: 1;
+      }
+    }
+
+    .login-container h2 {
+      margin-bottom: 10px;
+      font-size: 28px;
+      color: #333;
+    }
+
+    .login-container p {
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+
+    .login-container p span {
+      color: #e91e63;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      outline: none;
+      transition: border 0.3s;
+    }
+
+    .input-group input:focus {
+      border-color: #e91e63;
+    }
+
+    .options {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .login-btn {
+      width: 100%;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .login-btn:hover {
+      background-color: #d81b60;
+    }
+
+    .social-login {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons img {
+      width: 30px;
+      margin: 0 10px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .social-icons img:hover {
+      transform: scale(1.2);
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      text-align: center;
+      font-size: 12px;
+      width: 100%;
+      color: #888;
+    }
+
+    .footer a {
+      margin: 0 10px;
+      color: #555;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Food Images -->
+  <img src="https://i.imgur.com/Oa1Rr1S.png" class="background-image top-right" alt="top food" />
+  <img src="https://i.imgur.com/lPT3GMK.png" class="background-image bottom-left" alt="bottom food" />
+
+  <div class="login-container">
+    <h2>Login</h2>
+    <p>More than <span>15,000 recipes</span> from around the world</p>
+
+    <form>
+      <div class="input-group">
+        <input type="email" placeholder="Email Address" required />
+      </div>
+      <div class="input-group">
+        <input type="password" placeholder="Password" required />
+      </div>
+      <div class="options">
+        <label><input type="checkbox" /> Remember me</label>
+        <a href="#">Forgot Password?</a>
+      </div>
+      <button type="submit" class="login-btn">LOGIN</button>
+    </form>
+
+    <div class="social-login">
+      or login with
+      <div class="social-icons">
+        <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" />
+        <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google" />
+        <img src="https://img.icons8.com/color/48/000000/twitter--v1.png" alt="Twitter" />
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="#">Explore</a>
+    <a href="#">What</a>
+    <a href="#">Help & Feedback</a>
+    <a href="#">Contact</a><br>
+    © 2025 Stellar Pizza. All rights reserved.
+  </div>
+</body>
+</html>
