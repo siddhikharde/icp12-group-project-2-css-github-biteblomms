@@ -234,6 +234,7 @@
 .numbers-small-container:hover {
     transform: translateY(-10px) scale(1.05);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    
 }
 
 /* Numbers styling */
@@ -292,12 +293,13 @@
             font-size: 60px;
             font-weight: bold;
              color: rgb(255,107,53);
+            
         }
 
         .team-members {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 90px;
         }
 
         .member-card {
@@ -314,7 +316,7 @@
         }
 
         .member-image {
-            height: 250px;
+            height: 380px;
             overflow: hidden;
         }
 
@@ -348,6 +350,7 @@
     .member-container {
         font-size: 48px;
     }
+    
 }
 
 @media (max-width: 768px) {
