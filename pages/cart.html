@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./../pages/cart.css">
+    <link rel="stylesheet" href="./../pages/home.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="./../images/home-images/logo (1).png" alt="Logo" height="40">
+        </div class="nav-links-container">
+        <ul class="nav-links" type="none">
+            <li><a href="./../index.html">Home</a></li>
+            <li><a href="./../pages/menu.html">Menu</a></li>
+            <li><a href="./../pages/about.html">About</a></li>
+            <li><a href="./../pages/contact.html">Contact</a></li>
+        </ul>
+
+        <button class="cart-button">
+            <img src="./../images/home-images/cart-icon.png" alt="Cart">
+            <a href="#"> Cart</a>
+        </button>
+    </div>
+
+    <h1 class="cart-heading">Your Cart</h1>
+    <div class="cart-container">
+
+        <div class="card">
+            <p><img src="./../images/cart-images/pizza-logo.png" height="45px"></p>
+            <p class="food-name">Cheesy Pizza</p>
+            <p class="price">₹270</p>
+            <div class="qty-control">
+                <button>-</button>
+                <input type="number" value="1" min="1">
+                <button>+</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <p><img src="./../images/cart-images/fries-logo.png" height="45px"></p>
+            <p class="food-name">Crispy Fries</p>
+            <p class="price">₹110</p>
+            <div class="qty-control">
+                <button>-</button>
+                <input type="number" value="1" min="1">
+                <button>+</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="invoice-container">
+        <div class="invoice-box">
+            <div class="invoice">Invoice</div>
+            <hr class="row" />
+            <div class="invoice-align">
+                <span>Subtotal</span>
+                <span>₹380</span>
+            </div>
+
+            <div class="invoice-align">
+                <span>Tax (5%)</span>
+                <span>₹18.80</span>
+            </div>
+
+            <hr class="row" />
+            <div class="total">
+                <span>Total</span>
+                <span>₹398.80</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn">
+        <button class="check-btn">
+            <a href="./../index.html" class="link">Proceed to Checkout</a>
+        </button>
+    </div>
+</body>
+
+</html>
