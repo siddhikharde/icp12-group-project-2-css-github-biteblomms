@@ -109,11 +109,7 @@ body {
 
 
 .main-container {
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+ 
   width: 100%;
   min-height: 100vh;
   height: auto;
@@ -145,8 +141,8 @@ body {
 }
 
 .background-video {
-   background-color:  #b3b3b3;
-mix-blend-mode: multiply;
+  background-color:  #b3b3b3;
+  mix-blend-mode: multiply;
   opacity: 1;
   width: 100%;
   height: 100%;
@@ -667,7 +663,8 @@ mix-blend-mode: multiply;
   justify-content:center ;
  color: rgb(148, 139, 139);
   margin-bottom: 40px;
-  font-size: 15px
+  font-size: 15px;
+  padding: 0px 20px;
 }
 .social-media{
   display: flex;
@@ -680,6 +677,9 @@ mix-blend-mode: multiply;
   justify-content: center;
   list-style: none;
   gap: 30px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 20px;
 }
 .social-media ul li{
   height: 40px;
@@ -689,7 +689,7 @@ mix-blend-mode: multiply;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  padding: 1px;
  
   
 }
@@ -698,6 +698,15 @@ mix-blend-mode: multiply;
   font-size: 22px;
   color:#111827;
 
+}
+.social-media li:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  
+}
+.social-media i:hover{
+  color: #cc5900;
+  
 }
 
 
