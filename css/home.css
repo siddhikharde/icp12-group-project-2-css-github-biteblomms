@@ -22,7 +22,26 @@ body {
 .logo img {
   height: 60px;
 }
+.search{
+  width:90%;
+  height: 20px;
+  font-weight: 600;
+  border:solid 1.5px rgba(55, 65, 81, 0.8);
+  border-radius: 15px;
+  outline: none;
+   padding: 4px 10px;
 
+}
+.search:hover{
+  border: solid 1.5px rgb(255, 107, 53);
+}
+
+
+.nav-links-container{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
 .nav-links {
   padding: 0px;
   display: flex;
@@ -31,7 +50,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: rgb(55, 65, 81);
+  color: #374151;
   font-weight: bold;
   font-size: 16px;
 
@@ -79,17 +98,21 @@ body {
   .nav-links {
     display: none;
   }
-  .navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 20px;
+
+ 
+  
+  .search{
+    display: none;
   }
 
 }
 
-@media (min-width: 768px) and (max-width:900px) { 
+@media (min-width: 710px) and (max-width:1020px) { 
   .nav-links a{
     font-size: 14px;
+  }
+  .nav-links{
+    gap: 13px;
   }
   .logo img{
        height: 50px;
@@ -100,9 +123,19 @@ body {
   .cart-button img{
     height: 14px;
   }
-  
+  .search{
+    width: 80%;
+    font-size: 10px;
+    height: 15px;
+    
+  }
+    .search-container{
+  padding-bottom: 0px;
+ 
+}
 
 }
+
 
 .main-container {
   background-blend-mode: overlay;
@@ -681,8 +714,8 @@ mix-blend-mode: multiply;
 .btn-one img{
  height: 30px; 
  position: absolute;
- right: 40px;
- top: 20px;
+ right: 20px;
+ top: 17px;
 }
 .btn-one img:hover{
   transform: scale(1.1);
@@ -697,6 +730,7 @@ mix-blend-mode: multiply;
   top: 0;
   right: -300px;
   height: 80vh;
+  padding-bottom: 20px;
   border-radius: 0px 0px 0px 25px;
   width: 270px;
   backdrop-filter: blur(4px);
@@ -762,11 +796,27 @@ mix-blend-mode: multiply;
   text-align: center;
 }
 .sidebar-menu .menu li:hover{
- box-shadow: 0 1px 6px rgba(255, 255, 255, 0.7);
+ box-shadow: 0 1px 6px rgba(255, 255, 255, 0.8);
   transform: translateY(-1px);
   transition:  all 0.5s linear;
   background-color: rgba(255, 255, 255, 0.7);
 }
+  .hamburgure-search{
+     display: block;
+     width: 100%;
+     border-radius: 5px;
+     height: 20px;
+     outline: none;
+     border: solid 1.5px rgba(55, 65, 81, 0.8); 
+
+  }
+  .hamburgure-search:hover{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+  }
+  .hamburgure-search-container{
+    padding: 10px 20px;
+    
+  }
 #check{
   display: none;
 }
@@ -787,4 +837,5 @@ html, body {
   .cart-button{
     display: none;
   }
+
 }
