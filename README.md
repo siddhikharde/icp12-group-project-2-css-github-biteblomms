@@ -2,7 +2,7 @@
 
 **ByteBlooms** is a modern food delivery website with an offline restaurant. Users can explore the menu, order online, and visit the restaurant for dine-in.
 
-👉 **Live Website:** [https://byteblooms.netlify.app/](https://byteblooms.netlify.app/)
+👉 **Live Website:** [https://](https://)
 
 ---
 
