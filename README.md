@@ -19,7 +19,11 @@
 - Background video on the homepage
 - Customer favorites section with ratings and prices
 - About, Contact, and Sustainability pages
-
+ 
+ ## 📍 Location  
+Opp Audi Showroom, Baner, Pashan, Hill Trail, Baner, Pune, Maharashtra 411045  
+📞 [+91-9726357889](+91-9726357889)  
+✉️ [byteblooms123@gmail.com](mailto:byteblooms123@gmail.com)
 
 ## 💻 Tech Stack
 - HTML5
@@ -30,10 +34,6 @@
 ![folder structure screenshot](./images/)
 
 
-## 📝 How to Run Locally
-1. Clone or download this repo.
-2. Open `index.html` in your browser.
-3. Verify file paths for images, CSS, JS.
 
 ## 🔗 Deployment
 Can be deployed on
