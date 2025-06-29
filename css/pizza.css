@@ -1,0 +1,253 @@
+body{
+ background-color: #f0f0f0; 
+}
+.btn{
+    height: 100px;
+    width: 1000px;
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn1{
+     display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 120px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+    
+}
+.btn1:hover{
+    color:black;
+    background-color: rgb(255,107,53);
+  transform: scale(1.1);
+   transition: all 0.5s ease;
+    box-shadow: 0px 0px 5px 5px rgb(248, 214, 151);
+    
+}
+.btn1:hover.a{
+    background-color: rgb(255,107,53);
+    color: black;
+}
+
+h2{
+    color: rgb(17,24,39);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:50px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255,107,53);
+
+}  
+.pizza{
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 70px;
+    
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ; */
+
+.specification1{
+    color: rgb(17,24,39);
+    text-align: center;
+    margin-top: 20px;
+    transition-duration: 1s;   
+}
+.food-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+    margin-top: 10px;
+    transition-duration: 2s;
+}
+h1{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+}
+.changed-color{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(229,231,235);
+    font-size: 30px;
+    color: rgb(255,107,53);
+}
+@media (max-width:600px) {
+    .btn{
+    height: 90px;
+    width: 500px;
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    margin-left: 0%;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    }
+}
+@media (max-width:1039px) {
+    .btn{
+    height: 90px;
+    width: 500px;
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    }
+}
+/*css is applied on all  pizza template*/
+.pizza1{
+    height: 420px;
+    width: 350px;
+    border: 2px solid  #f0f0f0;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px rgb(220, 216, 216);
+    margin-left: 40px;
+}
+.pizza1:hover{
+    height: 430px;
+    width: 350px;
+    border: 2px solid  #f0f0f0; 
+    box-shadow: 0px 0px 8px 8px  rgba(128, 128, 128, 0.72);
+}
+.pizza1img{
+    height: 180px;
+    width: 350px;
+    border-radius: 15px 15px 0px 0px;
+}
+.pizza1img:hover{
+    height: 190px;
+    width: 351px;
+
+}
+h4{
+    font-size:23px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.text{
+    text-align: center;
+    font-family: serif;
+    font-size: 17px;
+    background-color: white;
+}
+.cart-button {
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(255,107,53);
+    border: 2px solid rgb(255,107,53);
+    border-radius: 15px;
+    font-weight: bold;  
+}
+.cart-button a{
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(255,107,53);
+    border: 2px solid rgb(255,107,53);
+    border-radius: 15px;
+    font-weight: bold;  
+}
+.cart-button:hover{
+    height: 45px;
+    width: 145px;
+    background-color: red;
+    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ;
+}
+.cart-button:hover a{
+    background-color: red;
+    border: 0px red;
+}
+.button{
+    display: flex;
+     align-items: end;
+     padding-left: 100px;
+      background-color: white;
+}
+.price{
+    font-size: 20px;
+    color:black; 
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(255,107,53);
+    background-color: white;
+    font-family: serif;
+}
+.del{
+    background-color: #f0f0f0;
+}
+.pizza.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; 
+    margin-top: 10px;
+    transition-duration: 2s;
+}
+/* fixed */
+.fixed {
+    position: fixed;
+    right: 10px;
+    top: 310px;
+    rotate: 270deg;
+    height: 45px;
+    width: 150px;
+    background-color: rgb(255, 107, 53);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fixed a{
+    color: white;
+    background-color:rgb(255,107,53) ;
+
+}
+@media (max-width: 1400px) {
+  .fixed {
+    left: 90%;
+  }
+}
+@media (max-width: 800px) {
+    .fixed {
+        top: 300px;
+        right: 25px;
+        rotate: 270deg; 
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+
+
+

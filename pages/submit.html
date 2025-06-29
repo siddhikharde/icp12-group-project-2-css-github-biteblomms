@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
-    <link rel="stylesheet" href="./../css/cart.css">
-          <link rel="stylesheet" href="../css/style.css">
-
+    <title>Submit</title>
+    <link rel="stylesheet" href="../css/submit.css">
+      <link rel="stylesheet" href="../css/style.css">
+    
 </head>
-
 <body>
        <div class="navbar">
         <div class="logo">
@@ -50,9 +48,11 @@
                     <div class="hamburgure-search-container">
                         <input type="text" placeholder=" what are you craving today?" class="hamburgure-search">
                     </div>
-                    <li><a href="/index.html"><img src="../images/home-images/home.png" alt="home " height="22px">
-                            Home</a> </li>
-                   <li>
+                    <li>
+                        <a href="/index.html"><img src="../images/home-images/home.png" alt="home " height="22px">
+                            Home</a> 
+                        </li>
+                    <li>
                         <a href="../pages/menu.html"><img src="../images/home-images/menu1.png" alt="menu" height="22px"> Menu</a>
                     </li>
                     <li><a href="../pages/cart.html"><img src="../images/home-images/cart.png" alt="Cart" height="22px">
@@ -69,60 +69,11 @@
             </div>
         </div>
     </div>
-
-    <h1 class="cart-heading">Your Cart</h1>
-    <div class="cart-container">
-
-        <div class="cart-card">
-            <p><img src="./../images/cart-images/pizza-logo.png" height="45px"></p>
-            <p class="food-name">Cheesy Pizza</p>
-            <p class="cart-price">₹270</p>
-            <div class="qty-control">
-                <button>-</button>
-                <input type="number" value="1" min="1">
-                <button>+</button>
-            </div>
-        </div>
-
-        <div class="cart-card">
-            <p><img src="./../images/cart-images/fries-logo.png" height="45px"></p>
-            <p class="food-name">Crispy Fries</p>
-            <p class="cart-price">₹110</p>
-            <div class="qty-control">
-                <button>-</button>
-                <input type="number" value="1" min="1">
-                <button>+</button>
-            </div>
-        </div>
+    <div class="body">
+         <div class="submit">Thank You!!!<br> For your valuable feedback...<br><br>
+             <a class="back" href="../pages/main-course.html">⬅️ back</a> </div>   
     </div>
-
-    <div class="invoice-container">
-        <div class="invoice-box">
-            <div class="invoice">Invoice</div>
-            <hr class="row" />
-            <div class="invoice-align">
-                <span>Subtotal</span>
-                <span>₹380</span>
-            </div>
-
-            <div class="invoice-align">
-                <span>Tax (5%)</span>
-                <span>₹18.80</span>
-            </div>
-
-            <hr class="row" />
-            <div class="total">
-                <span>Total</span>
-                <span>₹398.80</span>
-            </div>
-        </div>
     </div>
-
-    <div class="btn">
-        <button class="check-btn">
-            <a href="./../index.html" class="link">Proceed to Checkout</a>
-        </button>
-    </div>
+   <br>
 </body>
-
 </html>
