@@ -18,9 +18,20 @@
 
 }
 
+span{
+    color: rgb(255, 0, 0);
+}
+
 .pratik{
     display: flex;
     justify-content: center;
+}
+
+.main-heading{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing:1px;
+    /* color: rgb(207, 65, 22); */
 }
 
 
@@ -48,13 +59,112 @@
 
 }
 
-.byte-heading{
-    margin-left: 0px;
-}
 
 .leafimg{
     margin-right: 38px;
 }
+
+
+.earth{
+    margin-left: 0px;
+}
+
+
+.img-line-container{
+    /* background-color: rgb(177, 39, 39);
+    /* display: flex; */
+    /* flex-direction: row; */
+
+    /* background-color: #e8dbdb; */
+    display:flex; 
+    /* flex-wrap: wrap;  */
+    justify-content:space-evenly;
+    /* padding:0px; */
+}
+
+
+.imgAndLine{
+    /* display:inline-block; */
+    border: 2px black;
+    /* flex-direction: row; */
+
+
+    /* align-items: center; */
+
+        /* display:flex;  */
+    /* flex-wrap: wrap;  */
+    /* justify-content:center;
+    display: inline-block;
+    align-items: center;
+    border: 2px bisque; */
+
+    height: 400px;
+    width: 500px;
+    /* margin-left:40px; */
+    /* padding:28px; */
+    margin-bottom: 0px;
+    /* text-align:; */
+    font-size:20px;
+    margin-top: 0px;
+    /* line-height: 86px; */
+    margin-right: 40px;
+}
+
+.line1{
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(43, 155, 25);
+}
+
+.line2{
+    font-size: 20px;
+    line-height: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile */
+@media(min-width:100px) and (max-width:600px) {
+    .img-line-container{
+        display: flex;
+        flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
