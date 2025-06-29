@@ -1,6 +1,6 @@
 body {
     margin: 10px;
-    margin-top: 0;
+    margin-top: 60px;
     padding: 20px;
     margin-left: 120px;
     margin-right: 120px;
@@ -153,15 +153,20 @@ body {
     color: rgb(255, 255, 255);
 }
 
-@media (max-width: 570px) {
-    .card {
-        width: 200px;
-        height: 190px;
+@media (max-width: 560px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .cart-container {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .cart-card {
+        width: 280px;
+        height: 180px;
+        margin-bottom: 20px;
     }
 }
