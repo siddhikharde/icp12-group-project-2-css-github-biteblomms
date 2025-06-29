@@ -88,31 +88,55 @@ span {
     line-height: 29px;
 }
 
-.Buttonss {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 80px;
-    justify-content: space-around;
 
-}
-
-#twoButtons {
+#ButtonOne{
+    position:absolute;
+    top:452px;
+    right:440px;
     padding: 20px;
     border-radius: 20px;
     border: 2px solid black;
     background-color: rgba(11, 217, 11, 0.568);
     font-size: 20px;
-    font-weight: bold;
+    font-weight:bold;
+    border-radius: 20px;
+    letter-spacing: 1px;  
+
+}
+
+#ButtonTwo{
+    position:absolute;
+    top:452px;
+    right:260px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: rgba(11, 217, 11, 0.568);
+    font-size: 20px;
+    font-weight:bold;
     border-radius: 20px;
     letter-spacing: 1px;
-    color: black;
 
 }
 
 .btn {
     color: black;
 }
+
+#ButtonOne:hover{
+    cursor: pointer;
+    border: 3px solid black;
+    box-shadow:0 0 1px black;
+    
+}
+
+#ButtonTwo:hover{
+    cursor: pointer;
+    border: 3px solid black;
+    box-shadow:0 0 1px black;
+}
+
+
 
 
 
