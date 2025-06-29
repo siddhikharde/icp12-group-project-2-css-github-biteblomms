@@ -9,7 +9,7 @@ a {
 }
 
 .food-logo{
-       display:flex; 
+    display:flex; 
     flex-wrap: wrap; 
     justify-content:center;
 }
@@ -17,9 +17,8 @@ a {
  #logoimage{
     height:580px;
     width:600px;
-    border:none
+    border:none; 
 } 
-
 
 .offer{
     font-size: 40px;
@@ -28,7 +27,6 @@ a {
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 #green{
     color: rgb(9, 165, 40);

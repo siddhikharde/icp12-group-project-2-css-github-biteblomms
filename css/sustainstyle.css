@@ -1,15 +1,18 @@
 a {
     text-decoration: none;
+    color: black;
 }
 
 .sustain {
     margin: 0px;
     background-image: url(../images/back.svg);
     background-size: cover;
-
+    padding-bottom: 40px;
+    /* margin-top: 0px;
+    padding: 0px; */
 }
 
-span {
+#spanSustain{
     color: rgb(255, 0, 0);
 }
 
@@ -117,7 +120,7 @@ span {
     border-radius: 20px;
     letter-spacing: 1px;
 
-}
+} 
 
 .btn {
     color: black;
@@ -137,13 +140,56 @@ span {
 }
 
 
-
-
-
 /* for mobile */
 @media(min-width:100px) and (max-width:600px) {
     .img-line-container {
         display: flex;
         flex-direction: column;
     }
+}
+
+
+
+
+
+.wiki-heading-container{
+    margin-top: 0px;
+}
+
+
+
+.ecoClass{
+    margin-top: 0px;
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(8, 29, 8);
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ecoLine{
+    font-size: 24px;
+    /* text-align: center; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 30px;
+}
+
+#eco{
+    color: rgb(30, 190, 30);
+}
+
+#flavor{
+    color: rgb(255, 64, 0);
+}
+
+.wiki-link{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.color{
+    color: rgb(128, 62, 12);
 }
