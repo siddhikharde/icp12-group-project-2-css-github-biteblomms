@@ -62,9 +62,7 @@
   .nav-links {
     display: none;
   }
-
  
-  
   .search{
     display: none;
   }
@@ -81,12 +79,7 @@
   .logo img{
        height: 50px;
   }
-  .cart-button a{
-    font-size: 14px;
-  }
-  .cart-button img{
-    height: 14px;
-  }
+
   .search{
     width: 80%;
     font-size: 10px;

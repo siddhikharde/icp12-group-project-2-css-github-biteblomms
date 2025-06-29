@@ -37,8 +37,8 @@ a{
 .btn1:hover{
     color:black;
     background-color: rgb(255,107,53);
-    height:35px ;
-    width: 95px;
+   transform: scale(1.1);
+   transition: all 0.5s ease;
     box-shadow: 0px 0px 5px 5px rgb(248, 214, 151);
     
 }
@@ -59,7 +59,7 @@ h2{
 .menu{
     font-family:  Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin-top: 1px;
+    margin-top: 70px;
     
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ; */
 

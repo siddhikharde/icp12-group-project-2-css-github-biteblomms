@@ -37,8 +37,8 @@ a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255,107,53);
     font-size: 30px;
-    font-weight:bold;
-    text-align: center;
+   transform: scale(1.1);
+   transition: all 0.5s ease;
 }
 a{
     text-decoration: none;

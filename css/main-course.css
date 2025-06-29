@@ -2,7 +2,7 @@ body{
  background-color: #f0f0f0; 
 }
 .btn{
-    height: 100px;
+     height: 100px;
     width: 1000px;
     margin-top: 20px;
     gap: 30px;
@@ -18,7 +18,7 @@ a{
     color: black;
 }
 .btn1{
-     display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 40px;
@@ -32,13 +32,12 @@ a{
   text-decoration: none;
   transition: all 0.3s ease;
   cursor: pointer;
-    
 }
 .btn1:hover{
     color:black;
     background-color: rgb(255,107,53);
-    height:35px ;
-    width: 95px;
+    transform: scale(1.1);
+   transition: all 0.5s ease;
     box-shadow: 0px 0px 5px 5px rgb(248, 214, 151);
     
 }
@@ -59,7 +58,7 @@ h2{
 .menu{
     font-family:  Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin-top: 1px;
+    margin-top: 70px;
     
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ; */
 
@@ -540,7 +539,7 @@ a{
 /* fixed */
 .fixed {
     position: fixed;
-    right: 10px;
+    right: 0px;
     top: 310px;
     rotate: 270deg;
     height: 45px;
