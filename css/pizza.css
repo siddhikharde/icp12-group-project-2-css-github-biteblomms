@@ -67,8 +67,7 @@ h2{
     color: rgb(17,24,39);
     text-align: center;
     margin-top: 20px;
-    transition-duration: 1s;
-    
+    transition-duration: 1s;   
 }
 .food-container {
     display: flex;
@@ -228,7 +227,6 @@ h4{
     justify-content: center;
     align-items: center;
 }
-
 .fixed a{
     color: white;
     background-color:rgb(255,107,53) ;

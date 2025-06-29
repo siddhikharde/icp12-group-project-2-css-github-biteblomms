@@ -58,16 +58,19 @@ h2{
 .menu{
     font-family:  Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+<<<<<<< HEAD:css/main-course.css
     margin-top: 70px;
     
+=======
+    margin-top: 1px;  
+>>>>>>> bbb64f8d9c490aece6a623c9bb4e530823cbf687:css/main course.css
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ; */
 
 .specification1{
     color: rgb(17,24,39);
     text-align: center;
     margin-top: 20px;
-    transition-duration: 1s;
-    
+    transition-duration: 1s;   
 }
 .food-container {
     display: flex;
@@ -116,7 +119,6 @@ h1{
     }
 }
 /* Main Course */
-
 .box1{
     height: 500px;
     width: 500px;
@@ -141,8 +143,7 @@ h1{
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    animation: spin 10s linear infinite ;
-    
+    animation: spin 10s linear infinite ;  
 }
 .plate {
     width: 500px;
@@ -168,9 +169,7 @@ h1{
     display: flex;
     justify-content: center;
     cursor: pointer;
-
-    }
-    
+    }   
 }
 @media (max-width:1300px)and (min-width:1100px) {
     .btn{
@@ -184,7 +183,6 @@ h1{
     display: flex;
     justify-content: center;
     cursor: pointer;
-
     }
     .box1{
     height: 400px;
@@ -211,8 +209,7 @@ h1{
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    animation: spin 10s linear infinite ;
-    
+    animation: spin 10s linear infinite ;   
 }
 .plate {
     width: 400px;
@@ -228,9 +225,7 @@ h1{
     border-radius: 15px;
     background-color: white;
 } 
-
 }
-
 @media (max-width:1100px){
     .box1{
         height: 350px;
@@ -381,7 +376,6 @@ h4{
     margin-top: 10px;
     transition-duration: 2s;
 }
-
 /* review */
 .review{
     height: 270px;
@@ -389,8 +383,7 @@ h4{
     border: 2px solid gray;
     border-radius: 10px;
     margin-top: 30px;
-    background-color: white;
-    
+    background-color: white;   
 }
 .review1{
      height: 35px;
@@ -401,15 +394,13 @@ h4{
     justify-content: center;
     margin-left: 100px;
      background-color: white;
-
 }
 .review1 img{
   width: 250px;
   height: 100px;
   border-radius: 50%;
   margin-top: -50px;
-  border: 2px solid gray;
-  
+  border: 2px solid gray;  
 }
 .name{
     font-size: 20px;
@@ -558,7 +549,6 @@ a{
 .fixed a{
     color: white;
     background-color:rgb(255,107,53) ;
-
 }
 /* mobile */
 @media (max-width: 600px) {
@@ -568,11 +558,9 @@ a{
     margin: auto;
     padding: 20px;
   }
-
   .form1 form {
     width: 100%;
   }
-
   .form1 input,
   .form1 select {
     width: 95%;
@@ -592,17 +580,14 @@ a{
     margin: auto;
     padding: 30px;
   }
-
   .form1 form {
     width: 90%;
   }
-
   .form1 input,
   .form1 select {
     width: 95%;
     font-size: 18px;
   }
-
   .center {
     padding-left: 0;
     display: flex;
@@ -617,17 +602,14 @@ a{
     margin-left: 140px;
     padding: 40px;
   }
-
   .form1 form {
     width: 500px;
   }
-
   .form1 input,
   .form1 select {
     width: 95%;
     font-size: 20px;
   }
-
   .center {
     padding-left: 180px;
   }

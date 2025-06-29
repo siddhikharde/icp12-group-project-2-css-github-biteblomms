@@ -1,3 +1,5 @@
+
+/* navbar end */
 body{
  background-color: #f0f0f0; 
 }
@@ -130,7 +132,6 @@ span{
     font-size: 20px;
 }
 /* Box 2*/
-
 .food2{
     height: 250px;
     width: 290px;
@@ -173,7 +174,6 @@ span{
     font-weight: 1000;
     font-size: 20px;
 }
-
 /* box3 */
 .food3{
     height: 250px;
@@ -216,7 +216,6 @@ span{
     font-size: 20px;
 }
 /* box4 */
-
 .food4{
     height: 250px;
     width: 290px;
@@ -257,7 +256,6 @@ span{
     font-size: 20px;
 }
 /* box5 */
-
 .food5{
     height: 250px;
     width: 290px;
@@ -362,10 +360,8 @@ span{
     display: flex;
     justify-content: center;
     cursor: pointer;
-
     }
 }
-
 /* All items */
 .thali1{
     height: 420px;
@@ -454,15 +450,14 @@ h4{
 }
 
 /* pizza */
-
+/* pizza */
 .pizza1{
     height: 420px;
     width: 350px;
     border: 2px solid  #f0f0f0;
     border-radius: 15px;
     background-color: white;
-    box-shadow: 0px 0px 5px 5px rgb(220, 216, 216);
-    
+    box-shadow: 0px 0px 5px 5px rgb(220, 216, 216);  
 }
 .pizza1:hover{
     height: 430px;
