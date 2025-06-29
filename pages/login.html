@@ -104,6 +104,9 @@
     }
 
     .login-btn {
+      display: flex;
+      justify-content: center;
+      text-align: center;
       width: 100%;
       background-color: rgb(255, 107, 53);
     color: rgb(255, 255, 255);
@@ -112,11 +115,11 @@
       font-size: 16px;
       border-radius: 8px;
       cursor: pointer;
-      transition: background 0.3s;
+      transition: background 0.1s;
     }
 
     .login-btn:hover {
-      background-color: #d81b60;
+      background-color: rgb(255, 107, 53);
     }
 
     .social-login {
@@ -179,8 +182,9 @@
         <label><input type="checkbox" /> Remember me</label>
         <a href="#">Forgot Password?</a>
       </div>
-      <button type="submit" class="login-btn">LOGIN</button>
-      <a href="./registration.html"> Register hear</a>
+       <button class="login-btn">
+       <a href="./../pages/registration.html" class="submit">LOGIN</button></a>
+    </form>
     </form>
 
     <div class="social-login">
