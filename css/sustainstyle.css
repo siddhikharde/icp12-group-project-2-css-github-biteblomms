@@ -4,18 +4,61 @@
     letter-spacing: 6px;
     color: rgb(126, 49, 49);
     border: black;
-} 
+}
+
 .sustain{
-    /* width:fix; */
-    /* height:550px; */
     margin:0px;
     background-image:url(../images/back.svg) ;
     background-size:cover;
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
 }
 
-.img{
+.pratik{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sustainabilityHeading{
+    height: 80px;
+    background-color: rgb(231, 240, 232);
+    border-radius: 28px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* position: absolute; 
+    right: 20px;
+    left: 25px; */
+    border: 2px solid rgb(126, 49, 49);
+    box-shadow: 3px 3px rgb(126, 49, 49);
+
+    width:1000px;
+
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.byte-heading{
+    margin-left: 0px;
+}
+
+.leafimg{
+    margin-right: 38px;
+}
+
+
+
+/* .img{
     margin-left: 20px;
 }
 
@@ -57,7 +100,7 @@ h3{
 /* .btn1{
     font-size: larger;
 } */
-#commitment{
+/* #commitment{
     position:absolute;
     top:392px;
     right:490px;
@@ -80,10 +123,10 @@ h3{
 a{
     text-decoration: none;
     color:black;
-}
+} */
 
 /* for mobile */
-@media(min-width:100px) and (max-width:600px){
+/* @media(min-width:100px) and (max-width:600px){
     .sustain{
         width:fix;
         height:1000px;
@@ -108,10 +151,10 @@ a{
     }
 
 
-}
+} */
 
 /* tab */
-@media(min-width:601px) and (max-width:992px) {
+/* @media(min-width:601px) and (max-width:992px) {
     .sustain{
         width:fix;
         height:1000px;
@@ -140,10 +183,10 @@ a{
         right:360px;
     }
 
-}
+} */
 
 /* Laptop */
-@media(min-width:993px) and (max-width:1300px){
+/* @media(min-width:993px) and (max-width:1300px){
         #social{
         position:absolute;
         top:390px;
@@ -195,7 +238,7 @@ video{
     height: 500px;
     margin-top: 60px;
     margin-left:140px;
-    /* border: rgb(220, 22, 22);
-    box-shadow: 4px 4px black; */
-}
+
+} */
+
 
