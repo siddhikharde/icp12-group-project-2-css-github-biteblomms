@@ -19,7 +19,7 @@
       position: absolute;
       width: 1500px;
       height: display flex ;
-      z-index: 1;
+      z-index: 0;
     }
 
     .top-right {
@@ -35,6 +35,7 @@
     .login-container {
       background: #fff;
       padding: 40px;
+      margin-top: 70px;
       border-radius: 15px;
       box-shadow: 0 0 30px rgba(0,0,0,0.1);
       text-align: center;
@@ -107,11 +108,18 @@
       font-size: 16px;
       border-radius: 8px;
       cursor: pointer;
-      transition: background 0.1s;
+      transition: all 0.1s;
+    }
+    .login-btn a{
+      text-decoration: none;
+      color:white;
+      font-weight: bold;
     }
 
     .login-btn:hover {
-      background-color: rgb(255, 107, 53);
+      transition: all 0.5s ease;
+     background-color: #cc5900;
+     transform: scale(1.03);
     }
 
     .social-login {
