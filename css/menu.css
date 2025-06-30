@@ -1,10 +1,12 @@
 
-/* navbar end */
 body{
  background-color: #f0f0f0;
  margin: 0px;
- padding: 0px; 
+ padding: 0px;
+  
 }
+
+
 .btn{
     height: 100px;
     width: 1000px;
@@ -72,7 +74,7 @@ h2{
     text-align: center;
     margin-top: 20px;
     transition-duration: 1s;
-    
+    margin-bottom: 40px;
 }
 .food-container {
     display: flex;
@@ -81,6 +83,7 @@ h2{
     flex-wrap: wrap; 
     margin-top: 10px;
     transition-duration: 2s;
+    padding-bottom: 40px;
 }
 h1{
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -116,8 +119,8 @@ h1{
      text-align: center;
 }
 .food1:hover{
-    height: 260px;
-    width: 300px;
+   transform: scale(1.04);
+   transition: all 0.5s ease;
     background-image: url(../images/food1.png);
     box-shadow:0px 0px 15px 10px #fddb9d; 
     background-color: white;
@@ -157,8 +160,8 @@ span{
      text-align: center;
 }
 .food2:hover {
-    height: 260px;
-    width: 300px;
+    transform: scale(1.04);
+   transition: all 0.5s ease;
     background-image: url(../images/food2.png);
     box-shadow: 0px 0px 15px 10px #fddb9d;
     background-color: white;
@@ -200,8 +203,8 @@ span{
      text-align: center;
 }
 .food3:hover {
-    height: 260px;
-    width: 300px;
+   transform: scale(1.04);
+   transition: all 0.5s ease;
     background-image: url(../images/food3.png);
     box-shadow: 0px 0px 15px 10px #fddb9d;
     background-color: white;
@@ -241,8 +244,8 @@ span{
      text-align: center;
 }
 .food4:hover {
-    height: 260px;
-    width: 300px;
+   transform: scale(1.04);
+   transition: all 0.5s ease;
     background-image: url(../images/food4.png);
     box-shadow: 0px 0px 15px 10px #fddb9d;
     background-color: white;
@@ -281,8 +284,8 @@ span{
      text-align: center;
 }
 .food5:hover {
-    height: 260px;
-    width: 300px;
+   transform: scale(1.04);
+   transition: all 0.5s ease;
     background-image: url(../images/food5.png);
     box-shadow: 0px 0px 15px 10px #fddb9d;
     background-color: white;
@@ -321,14 +324,15 @@ span{
      text-align: center;
 }
 .food6:hover{
-    height: 260px;
-    width: 300px;
+    transform: scale(1.04);
+   transition: all 0.5s ease;
     background-image: url(../images/food6.png);
     box-shadow:0px 0px 15px 10px #fddb9d; 
     background-size:cover;
      border-radius: 15px; 
 }
 .food6:hover .text{
+    transition:all 1s ease;
         display: none;
         background-color: white;
     }
@@ -340,20 +344,22 @@ span{
 }
 @media (max-width:600px) {
     .btn{
+    height: 90px;
+    width: 500px;
     margin-top: 20px;
-    gap: 10px;
     display: flex;
     margin-left: 0%;
     margin-right:auto;
     display: flex;
     justify-content: center;
+     gap: 30px;
     cursor: pointer;
-
     }
 }
 @media (max-width:1039px) {
     .btn{
-   
+    height: 90px;
+    width: 500px;
     margin-top: 20px;
     gap: 10px;
     display: flex;
@@ -364,7 +370,11 @@ span{
     cursor: pointer;
     }
 }
+
 /* All items */
+.all-items{
+    padding-top: 40px;
+}
 .thali1{
     height: 420px;
     width: 350px;
@@ -375,8 +385,8 @@ span{
     
 }
 .thali1:hover{
-    height: 430px;
-    width: 350px;
+    transform: scale(1.03);
+   transition: all 0.5s ease;
     border: 2px solid  #f0f0f0; 
     box-shadow: 0px 0px 8px 8px rgba(128, 128, 128, 0.72);
 }
@@ -386,8 +396,8 @@ span{
     border-radius: 15px 15px 0px 0px;
 }
 .thali1img:hover{
-    height: 185px;
-    width: 351px;
+    /* height: 185px;
+    width: 351px; */
 
 }
 h4{
@@ -413,24 +423,27 @@ h4{
     font-weight: bold;  
 }
 .cart-button:hover{
-    height: 45px;
-    width: 145px;
-    background-color: red;
-    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ;
+    transform: scale(1.04);
+   transition: all 0.3s ease;
+    background-color: #cc5900;
+    /* height: 45px;
+    width: 145px; */
+    /* background-color: red;
+    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ; */
 }
 .cart-button a{
     color: white;
     font-size: 15px;
     height: 40px;
     width: 140px;
-    background-color: rgb(255,107,53);
-    border: 2px solid rgb(255,107,53);
+    /* background-color: rgb(255,107,53);
+    border: 2px solid rgb(255,107,53); */
     border-radius: 15px;
     font-weight: bold;  
 }
 .cart-button:hover a{
-    background-color: red;
-    border: 0px red;
+    /* background-color: red;
+    border: 0px red; */
 }
 
 .button{
@@ -462,8 +475,8 @@ h4{
     box-shadow: 0px 0px 5px 5px rgb(220, 216, 216);  
 }
 .pizza1:hover{
-    height: 430px;
-    width: 350px;
+   transform: scale(1.03);
+   transition: all 0.5s ease;
     border: 2px solid  #f0f0f0; 
     box-shadow: 0px 0px 8px 8px  rgba(128, 128, 128, 0.72);
 }
@@ -494,15 +507,16 @@ h4{
     height: 40px;
     width: 140px;
     background-color: rgb(255,107,53);
-    border: 2px solid rgb(255,107,53);
+    border: 1px solid rgb(255,107,53);
     border-radius: 15px;
     font-weight: bold;  
 }
 .cart-button:hover{
-    height: 45px;
-    width: 145px;
-    background-color: red;
-    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ;
+    transform: scale(1.03);
+   transition: all 0.3s ease;
+    background-color: #cc5900;
+    /* background-color: red;
+    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ; */
 }
 .button{
     display: flex;

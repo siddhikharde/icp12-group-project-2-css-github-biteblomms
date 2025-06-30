@@ -6,7 +6,7 @@
 - Explore the restaurant's offline services
 - View sustainability efforts and contact info
 
-👉 **Live Website:** [https://byteblooms.netlify.app/](https://byteblooms.netlify.app/)
+👉 **Live Website:** []()
 ---
 
 ## 🖼️ Homepage Screenshot
