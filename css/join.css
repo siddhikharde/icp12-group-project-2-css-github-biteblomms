@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.mainjoin{
+      width: 600px;
+      height: 600px;
+      background-color: rgb(226, 212, 212);
+      border: 2px rgb(107, 91, 91);
+}
