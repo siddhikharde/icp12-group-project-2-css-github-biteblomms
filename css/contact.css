@@ -101,6 +101,14 @@ body {
     border-radius: 6px;
     font-family: Georgia, serif;
     font-size: 14px;
+    outline: none;
+}
+.contact-form  textarea:focus{
+    border: solid 1.5px rgb(255, 107, 53);
+}
+
+.contact-form  input:focus{
+    border: solid 1.5px rgb(255, 107, 53);
 }
 
 .contact-form button {
