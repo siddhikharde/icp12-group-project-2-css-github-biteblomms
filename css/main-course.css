@@ -453,6 +453,7 @@ h4{
    font-weight: 700;
     color: rgb(255,107,53);
  }
+
  .input-group{
     display: flex;
     flex-direction: column;
@@ -469,10 +470,16 @@ h4{
     outline: none;
     width: 250px;
  }
+ .input-group input:focus{
+    border: 1.5px solid #cc5900;
+ }
  .input-group textarea{
     width: 250px;
     outline: none;
     border-radius: 5px;
+ }
+ .input-group textarea:focus{
+    border: 1.5px solid #cc5900;
  }
  .input-group select{
     width: 250px;
