@@ -9,7 +9,7 @@ a {
 }
 
 .part {
-    height: 550px;
+    height: 580px;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -17,22 +17,26 @@ a {
     flex-direction: row;
     background-color: #f0f0f0;
 }
-
+ 
 .shape {
 
     height: 80px;
-    background-color: rgb(136, 198, 145);
-    border-radius: 20px;
-    justify-content: center;
+    /* background-color: rgb(136, 198, 145); */
+    /* border-radius: 20px; */
+    /* justify-content: center; */
     text-align: center;
     margin: 20px;
     position: absolute;
-    right: 5px;
-    left: 5px;
-    border: 2px solid rgb(126, 49, 49);
-    box-shadow: 3px 3px rgb(126, 49, 49);
+    /* right: 5px;
+    left: 5px; */
+    /* border: 2px solid rgb(126, 49, 49);
+    box-shadow: 3px 3px rgb(126, 49, 49); */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
 }
-
+ 
 .img {
     position: absolute;
     top: 100px;
@@ -40,8 +44,9 @@ a {
 
 .heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 6px;
+    /* letter-spacing: 6px; */
     color: rgb(126, 49, 49);
+    
 }
 
 .para {
@@ -84,6 +89,8 @@ a {
 
 
 #quote {
+        color: green;
+    text-decoration: dotted;
     padding: 4px;
     margin-top: 0px;
     margin-left: 14px;
@@ -93,6 +100,8 @@ a {
 }
 
 #head {
+        color: green;
+    text-decoration: underline;
     margin-left: 34px;
     padding: 20px;
 }
@@ -105,8 +114,10 @@ a {
 
 .para:hover {
 
-    border: solid green;
-    box-shadow: 4px 4px green;
+    /* border: solid green; */
+    box-shadow: 4px 4px rgb(92, 109, 92);
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
 .shape:hover {
@@ -114,6 +125,13 @@ a {
     box-shadow: 4px 4px rgb(126, 49, 49);
     text-decoration: underline rgb(126, 49, 49);
 }
+
+/* .flex{
+    display: flex;
+    align-items: center;
+    justify-content: ;
+
+} */
 
 /* for mobile */
 @media(min-width:100px) and (max-width:600px) {
@@ -254,7 +272,6 @@ a {
     justify-content: center;
 
 }
-
 
 .one {
     height: 200px;
