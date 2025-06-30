@@ -9,7 +9,6 @@ a {
 }
 
 .part {
-    /* height: 580px; */
     width: 100%;
     margin-top: 0px;
     padding-top: 40px;
@@ -34,7 +33,6 @@ a {
     margin-right: 40px;
     line-height: 26px;
 }
-
 
 .flex {
     display: flex;
@@ -95,8 +93,9 @@ a {
 
 #explore:hover {
     cursor: pointer;
-    border: 3px solid black;
-    box-shadow: 0 0 1px black;
+    box-shadow: 0px 0px 6px 1px rgb(52, 50, 50);
+    transition: 0.2s;
+    transform: scale(1.05)
 }
 
 .graph:hover {
@@ -105,51 +104,39 @@ a {
     transition: 0.2s;
 }
 
-
 /* ........ */
 
-.turning1 {
-    height: 200px;
-    width: 100;
+.turning {
     margin-top: 0px;
     padding: 10px;
     margin-bottom: 0px;
     background-color: #e8dbdb;
-
 }
 
 #fonts {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 60px;
-    margin-left: 500px;
-    margin-right: 500px;
     font-style: oblique;
     font-size: 30px;
     font-weight: bold;
-
+    text-align: center;
 }
 
 #line {
-
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 300px;
-    margin-right: 200px;
     line-height: 22px;
     font-size: 16px;
     font-weight: 100px;
     text-align: center;
 }
 
-
 .card-container {
-
     background-color: #e8dbdb;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .one {
@@ -162,10 +149,9 @@ a {
     font-size: 20px;
     margin-top: 0px;
     line-height: 26px;
-
 }
 
-#join {
+/* #join {
     position: absolute;
     top: 1780px;
     right: 780px;
@@ -177,5 +163,4 @@ a {
     background-color: rgba(11, 217, 11, 0.568);
     height: 70px;
     width: 140px;
-
-}
+} */
