@@ -34,7 +34,7 @@ body {
 
 }
 
-.search:hover {
+.search:focus{
   border: solid 1.5px rgb(255, 107, 53);
 }
 
@@ -884,7 +884,7 @@ body {
 
   }
 
-  .hamburgure-search:hover {
+  .hamburgure-search:hover:focus {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
   }
 
