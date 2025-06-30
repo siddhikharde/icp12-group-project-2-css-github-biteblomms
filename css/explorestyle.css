@@ -1,3 +1,7 @@
+*{
+box-sizing:border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -54,7 +58,7 @@ a {
  
 .sustainable-foods {
     height: 550px;
-    width: 417px;
+    width: 421px;
     border: 2px solid black;
     margin-top: 60px;
     border-radius: 20px;
@@ -63,7 +67,6 @@ a {
 }
  
 img {
-    /* display: block; */
     width: 100%;
     border-radius: 18px 18px 18px 18px;
     border: 2px solid black;
@@ -79,7 +82,7 @@ p {
     line-height: 10pxpx;
 
 }
-
+ 
 .sustainable-foods:hover {
     box-shadow: 2px 4px 9px 1px rgb(52, 50, 50);
     transition: 0.2s;
