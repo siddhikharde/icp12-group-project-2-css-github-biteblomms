@@ -2,14 +2,20 @@ body {
     margin: 10px;
     margin-top: 60px;
     padding: 20px;
-    margin-left: 120px;
-    margin-right: 120px;
+    padding: 0px;
+    margin: 0px;
     font-family: Georgia, serif;
     background-color: #f0f0f0;
     text-align: center;
 }
+.nav-links li:nth-child(3) a {
+  color: rgb(255, 107, 53);
+  text-decoration: underline;
+}
 
 .cart-container {
+    margin-left: 120px;
+    margin-right: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -146,6 +152,7 @@ body {
 .btn {
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .link {
