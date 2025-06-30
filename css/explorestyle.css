@@ -8,81 +8,80 @@ a {
     color: black;
 }
 
-.food-logo{
-    display:flex; 
-    flex-wrap: wrap; 
-    justify-content:center;
-} 
+.food-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
- #logoimage{
-    height:580px;
-    width:600px;
-    border:none; 
-} 
+#logoimage {
+    height: 580px;
+    width: 600px;
+    border: none;
+}
 
-.offer{
+.offer {
     font-size: 40px;
     color: rgb(8, 29, 8);
     text-align: center;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-} 
+}
 
-#green{
+#green {
     color: rgb(9, 165, 40);
 }
 
-.line{
+.line {
     font-size: 24px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-#seed{
+#seed {
     font-size: 30px;
     color: rgb(239, 10, 10);
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-.sustainable-foods{
-    height: 550px;
-    width: 400px;
-    border: 2px solid black;
-    margin: 10px;
-    margin-top: 60px;
-    margin-left: 90px;
-    display: inline-block;
-    border-radius: 20px;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 30px;
-    
+.temp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-img{   
-    width:100%;
+.sustainable-foods {
+    height: 550px;
+    width: 417px;
+    border: 2px solid black;
+    margin-top: 60px;
+    border-radius: 20px;
+    padding: 9px;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    width: 100%;
     border-radius: 18px 18px 18px 18px;
     border: 2px solid black;
 }
 
-h3{
+h3 {
     text-align: center;
 }
 
-p{
+p {
     padding: 6px;
     font-size: large;
     line-height: 10pxpx;
 
 }
 
-.sustainable-foods:hover{
-
-    box-shadow:2px 4px 9px 1px rgb(52, 50, 50);
+.sustainable-foods:hover {
+    box-shadow: 2px 4px 9px 1px rgb(52, 50, 50);
     transition: 0.2s;
-    transform:scale(1.05);
+    transform: scale(1.05);
 }
- 
