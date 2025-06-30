@@ -8,8 +8,6 @@ a {
     background-image: url(../images/back.svg);
     background-size: cover;
     padding-bottom: 40px;
-    /* margin-top: 0px;
-    padding: 0px; */
 }
 
 #spanSustain {
@@ -25,9 +23,7 @@ a {
     font-size: 30px;
     font-weight: 900;
     letter-spacing: 1px;
-
 }
-
 
 .sustainabilityHeading {
     height: 80px;
@@ -43,9 +39,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-
 
 .leafimg {
     margin-right: 38px;
@@ -60,18 +54,15 @@ a {
     ;
 }
 
-
 .earth {
     margin-left: 0px;
 }
-
 
 .img-line-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
 }
-
 
 .imgAndLine {
     border: 2px black;
@@ -82,7 +73,6 @@ a {
     margin-top: 0px;
     margin-right: 40px;
 }
-
 
 .line1 {
     font-size: larger;
@@ -95,11 +85,10 @@ a {
     line-height: 29px;
 }
 
-
 #ButtonOne {
-    /* position: absolute; */
+    /* position: absolute;
     top: 452px;
-    right: 440px;
+    right: 440px; */
     padding: 20px;
     border-radius: 20px;
     border: 2px solid black;
@@ -108,13 +97,12 @@ a {
     font-weight: bold;
     border-radius: 20px;
     letter-spacing: 1px;
-
 }
 
 #ButtonTwo {
-    /* position: absolute; */
+    /* position: absolute;
     top: 452px;
-    right: 260px;
+    right: 260px; */
     padding: 20px;
     border-radius: 20px;
     border: 2px solid black;
@@ -123,7 +111,6 @@ a {
     font-weight: bold;
     border-radius: 20px;
     letter-spacing: 1px;
-
 }
 
 .btn1-btn2{
@@ -149,8 +136,6 @@ a {
     border: 3px solid black;
     box-shadow: 0 0 1px black;
 }
-
-
 
 /* for mobile */
 @media(min-width:100px) and (max-width:600px) {
@@ -232,13 +217,13 @@ a {
     transform: scale(1.05);
     box-shadow:2px 4px 9px 1px rgb(52, 50, 50);
     transition: 0.2s;
-
 }
 
 h2{
     color: rgb(157, 11, 219);
     font-size: 24px;
 }
+
  .surprise{
     color: #555;
     margin: 10px 0;
@@ -260,7 +245,3 @@ h2{
     cursor: pointer;
     transition: background 0.3s ease;
  }
-.buyButton{
-    background-color: #245c3f;
-}
-
