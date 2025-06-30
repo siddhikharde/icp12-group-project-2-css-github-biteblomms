@@ -12,7 +12,7 @@ a {
     padding: 0px; */
 }
 
-#spanSustain{
+#spanSustain {
     color: rgb(255, 0, 0);
 }
 
@@ -53,7 +53,11 @@ a {
 }
 
 @keyframes spin {
-    100% { transform: rotate(360deg)};
+    100% {
+        transform: rotate(360deg)
+    }
+
+    ;
 }
 
 
@@ -83,7 +87,7 @@ a {
 .line1 {
     font-size: larger;
     font-weight: 600;
-    color: rgb(43, 155, 25);
+    color: rgb(30, 127, 15);
 }
 
 .line2 {
@@ -92,52 +96,60 @@ a {
 }
 
 
-#ButtonOne{
-    position:absolute;
-    top:452px;
-    right:440px;
+#ButtonOne {
+    /* position: absolute; */
+    top: 452px;
+    right: 440px;
     padding: 20px;
     border-radius: 20px;
     border: 2px solid black;
     background-color: rgba(11, 217, 11, 0.568);
     font-size: 20px;
-    font-weight:bold;
-    border-radius: 20px;
-    letter-spacing: 1px;  
-
-}
-
-#ButtonTwo{
-    position:absolute;
-    top:452px;
-    right:260px;
-    padding: 20px;
-    border-radius: 20px;
-    border: 2px solid black;
-    background-color: rgba(11, 217, 11, 0.568);
-    font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
     border-radius: 20px;
     letter-spacing: 1px;
 
-} 
+}
+
+#ButtonTwo {
+    /* position: absolute; */
+    top: 452px;
+    right: 260px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: rgba(11, 217, 11, 0.568);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    letter-spacing: 1px;
+
+}
+
+.btn1-btn2{
+    display: inline-block;
+    align-items: center;
+    justify-content:space-between;
+    margin: 20px;
+}
 
 .btn {
     color: black;
 }
 
-#ButtonOne:hover{
+#ButtonOne:hover {
     cursor: pointer;
     border: 3px solid black;
-    box-shadow:0 0 1px black;
-    
+    box-shadow: 0 0 1px black;
+
 }
 
-#ButtonTwo:hover{
+#ButtonTwo:hover {
     cursor: pointer;
     border: 3px solid black;
-    box-shadow:0 0 1px black;
+    box-shadow: 0 0 1px black;
 }
+
 
 
 /* for mobile */
@@ -148,17 +160,11 @@ a {
     }
 }
 
-
-
-
-
-.wiki-heading-container{
+.wiki-heading-container {
     margin-top: 0px;
 }
 
-
-
-.ecoClass{
+.ecoClass {
     margin-top: 0px;
     font-size: 30px;
     padding: 10px;
@@ -167,7 +173,8 @@ a {
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.ecoLine{
+
+.ecoLine {
     font-size: 24px;
     /* text-align: center; */
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -177,19 +184,68 @@ a {
     line-height: 30px;
 }
 
-#eco{
+#eco {
     color: rgb(30, 190, 30);
 }
 
-#flavor{
+#flavor {
     color: rgb(255, 64, 0);
 }
 
-.wiki-link{
+.wikipedia-giftcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
     margin-top: 40px;
-    margin-left: 20px;
 }
 
-.color{
+.wiki-link {
+    margin: 10px;
+}
+
+.color {
     color: rgb(128, 62, 12);
 }
+
+.giftCard {
+    background-color: aquamarine;
+    padding: 30px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+h2{
+    color: rgb(157, 11, 219);
+    font-size: 24px;
+}
+ .surprise{
+    color: #555;
+    margin: 10px 0;
+ }
+
+ .price{
+    font-weight: bold;
+    font-size: 18px;
+    color: #2f714f;
+ }
+
+ .buyButton{
+    background-color: #2f714f;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+ }
+.buyButton{
+    background-color: #245c3f;
+}
+
