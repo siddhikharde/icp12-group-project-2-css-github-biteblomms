@@ -371,7 +371,7 @@ body {
   ;
 }
 
-@media (max-width:766px) {
+@media (max-width:768px) {
   .main-container-2 {
     min-height: auto;
   }
@@ -384,7 +384,7 @@ body {
   .feature {
     width: 100%;
     padding: 0px;
-    border: none;
+   border: none;
     background-color: transparent;
     border-radius: 15px;
     box-shadow: none;
@@ -402,7 +402,10 @@ body {
 
   .feature:hover {
     transform: none;
-  }
+   box-shadow: none;
+ 
+}
+  
 
 }
 
