@@ -8,6 +8,10 @@ body {
     background-color: #f0f0f0;
     text-align: center;
 }
+.nav-links li:nth-child(3) a {
+  color: rgb(255, 107, 53);
+  text-decoration: underline;
+}
 
 .cart-container {
     margin-left: 120px;

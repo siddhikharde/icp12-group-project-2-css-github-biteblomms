@@ -5,7 +5,10 @@ body{
  padding: 0px;
   
 }
-
+.nav-links li:nth-child(2) a {
+  color: rgb(255, 107, 53);
+  text-decoration: underline;
+}
 
 .btn{
     height: 100px;
@@ -395,11 +398,10 @@ span{
     width: 350px;
     border-radius: 15px 15px 0px 0px;
 }
-.thali1img:hover{
-    /* height: 185px;
-    width: 351px; */
-
-}
+/* .thali1img:hover{
+    height: 185px;
+    width: 351px;
+} */
 h4{
     font-size:23px;
     text-align: center;
@@ -441,10 +443,7 @@ h4{
     border-radius: 15px;
     font-weight: bold;  
 }
-.cart-button:hover a{
-    /* background-color: red;
-    border: 0px red; */
-}
+
 
 .button{
     display: flex;

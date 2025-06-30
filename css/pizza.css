@@ -3,6 +3,11 @@ body{
  margin: 0px;
  
 }
+.nav-links li:nth-child(2) a {
+  color: rgb(255, 107, 53);
+  text-decoration: underline;
+}
+
 .btn{
     height: 100px;
     width: 1000px;
