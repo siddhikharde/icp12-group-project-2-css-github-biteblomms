@@ -1,3 +1,4 @@
+
 .navbar {
   display: flex;
   align-items: center;
@@ -10,6 +11,7 @@
   z-index: 1;
   backdrop-filter: blur(30px);
   box-shadow: 0px 2px 5px rgb(158, 159, 160);
+   font-family: Georgia, serif;
 }
 
 .logo img {
@@ -25,7 +27,7 @@
    padding: 4px 10px;
 
 }
-.search:hover{
+.search:focus{
   border: solid 1.5px rgb(255, 107, 53);
 }
 
@@ -44,8 +46,8 @@
 .nav-links a {
   text-decoration: none;
   color: #374151;
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 700;
+ font-size: 16px;
 
 }
 
@@ -62,9 +64,7 @@
   .nav-links {
     display: none;
   }
-
  
-  
   .search{
     display: none;
   }
@@ -73,7 +73,7 @@
 
 @media (min-width: 710px) and (max-width:1020px) { 
   .nav-links a{
-    font-size: 14px;
+     font-size:14px; 
   }
   .nav-links{
     gap: 13px;
@@ -81,12 +81,7 @@
   .logo img{
        height: 50px;
   }
-  .cart-button a{
-    font-size: 14px;
-  }
-  .cart-button img{
-    height: 14px;
-  }
+
   .search{
     width: 80%;
     font-size: 10px;
@@ -126,9 +121,9 @@
   border-radius: 0px 0px 0px 25px;
   width: 270px;
   backdrop-filter: blur(4px);
- background-color:rgba(255, 255, 255, 0.4);
+ background-color:rgba(255, 255, 255, 0.95);
  box-shadow: 0 1px 6px rgba(255, 255, 255, 0.7);
-  transition: all linear 1.2s;
+  transition: all linear 1s;
 }
 .sidebar-menu .btn-two{
   position: absolute;
@@ -226,8 +221,207 @@ html, body {
   .btn-one{
     display: block;
   }
-  .cart-button{
-    display: none;
-  }
+  
+}
+
+.footer-container {
+  background-color: #111827;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
 
 }
+
+.footer {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: auto;
+  border-bottom: solid 1px #3e4043;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  gap: 50px;
+}
+
+.about {
+
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  text-align: start;
+  justify-content: flex-start;
+  color: rgb(209, 213, 219);
+
+}
+
+.about img {
+  height: 40px;
+  width: 170px;
+}
+
+.about p {
+  font-size: 15px;
+  line-height: 23px;
+  text-align: start;
+}
+
+.location-container {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  color: rgb(209, 213, 219);
+
+}
+
+.location-sub-container {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.loaction-info {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 12px;
+  padding-right: 10px;
+}
+
+.loaction-text img {
+  height: 22px;
+}
+
+.loaction-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  line-height: 23px;
+  gap: 12px;
+}
+
+.loaction-text a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(209, 213, 219);
+}
+
+.operating-hours {
+  display: flex;
+  flex-direction: column;
+  color: rgb(209, 213, 219);
+}
+
+.hours-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.hours-container img {
+  height: 20px;
+}
+
+.houres {
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.houres ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.operating-hours p {
+  font-size: 12px;
+  text-align: start;
+  color: rgb(148, 139, 139);
+}
+
+.copy-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(148, 139, 139);
+  margin-bottom: 40px;
+  font-size: 15px;
+   text-align: center;
+  padding: 0px 20px;
+}
+
+.social-media ul{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  list-style: none;
+  gap: 30px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+
+.social-media ul li {
+  padding: 5px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  background-color: whitesmoke;
+  border-radius:  50%;
+}
+.social-media ul a{
+  font-size: 21px;
+  text-decoration: none;
+  color:#111827; ;
+}
+
+.social-media li:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.social-media i:hover {
+  color: #cc5900;
+}
+
+
+
+  @media (max-width:1150px) and (min-width:767px) {
+    .footer {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .operating-hours img {
+      height: 15px;
+    }
+
+    .loaction-icon img {
+      height: 17px;
+    }
+  }
+
+  @media (max-width:767px) {
+    .footer {
+      margin-left: 20px;
+      margin-right: 20px;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+  }
+
+

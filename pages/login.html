@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="./../css/contact.css">
-           <link rel="stylesheet" href="../css/style.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Stellar Pizza</title>
+  <link rel="stylesheet" href="./../css/login.css">
+  <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  
 </head>
-
 <body>
-       <div class="navbar">
+    <div class="navbar">
         <div class="logo">
             <img src="../images/home-images/logo (1).png" alt="Logo" height="40">
-
         </div>
         <div class="search-container">
             <input type="text" placeholder="Find food...?" class="search">
@@ -29,9 +26,8 @@
                 <li><a href="../pages/cart.html">Cart</a></li>
                 <li><a href="../pages/about.html">About</a></li>
                 <li><a href="../pages/contact.html">Contact</a></li>
-                <li><a href="../pages/sustainability.html">sustainability</a></li>
+                <li><a href="">sustainability</a></li>
                 <li><a href="../pages/login.html">Log In</a></li>
-
             </ul>
         </div>
         <input type="checkbox" id="check" />
@@ -55,7 +51,7 @@
                     </div>
                     <li><a href="/index.html"><img src="../images/home-images/home.png" alt="home " height="22px">
                             Home</a> </li>
-                   <li>
+                 <li>
                         <a href="../pages/menu.html"><img src="../images/home-images/menu1.png" alt="menu" height="22px"> Menu</a>
                     </li>
                     <li><a href="../pages/cart.html"><img src="../images/home-images/cart.png" alt="Cart" height="22px">
@@ -72,63 +68,44 @@
             </div>
         </div>
     </div>
-    
-    <div class="contact">
-        <h1 class="contact-heading">Contact Us</h1>
+  <!-- Background Food Images -->
+ <div class="container">
+   <img src="./../images/background-removebg-preview.png" class="background-image top-right" alt="top food" />
 
-        <div class="contact-info">
-            <div class="info-box">
-                <div class="contact-logo">
-                    <img src="./../images/contact-images/address-logo.png" class="logo1">
-                    <span class="contact-text-heading">Address</span>
-                </div>
-                <p class="contact-text">
-                    <a href="https://maps.app.goo.gl/dwggoSJBeRyNRwLj7" target="_blank"
-                        class="contact-link">Opp audi
-                        showroom, Baner, Pashan, Hill Trail, Baner, Pune, Maharashtra
-                        411045</a>
-                </p>
-            </div>
+  <div class="login-container">
+    <h2>Login</h2>
+    <p>More than <span>15,000 recipes</span> from around the world</p>
 
-            <div class="info-box">
-                <div class="contact-logo">
-                    <img src="./../images/contact-images/phone-logo.png" class="logo1">
-                    <span class="contact-text-heading">Phone</span>
-                </div>
-                <p class="contact-text"><a href="tel:+91-9723548912" class="contact-link">+91-9723548912</a></p>
-            </div>
+    <form>
+      <div class="input-group">
+        <input type="email" placeholder="Email Address" required />
+      </div>
+      <div class="input-group">
+        <input type="password" placeholder="Password" required />
+      </div>
+      <div class="options">
+        <label><input type="checkbox" /> Remember me</label>
+        <a href="../pages/sustainability.html">Forgot Password?</a>
+      </div>
+       <button class="login-btn" >
+       <a href="./../pages/registration.html" class="submit">LOGIN</button></a>
+    </form>
 
-            <div class="info-box">
-                <div class="contact-logo">
-                    <img src="./../images/contact-images/email-logo.png" class="logo1">
-                    <span class="contact-text-heading">Email</span>
-                </div>
-                <p class="contact-text"><a href="mailto:support@biteblomms.com"
-                        class="contact-link">support@byteblooms.com</a></p>
-            </div>
-        </div>
+   
 
-       <div class="contact-form-container">
-         <div class="contact-form">
-            <h2>Contact Form</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required />
-                <input type="email" placeholder="Your Email" required />
-                <textarea rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-
+    <div class="social-login">
+      <p>Don't have an account?  <a href="../pages/registration.html">Sign Up</a></p>
+      or login with
+      <div class="social-icons">
+       <a href="https://www.facebook.com/" target="_blank"> <img src="./../images/facebook.png" alt="Facebook" /></a>
+       <a href="https://www.google.com/" target="_blank"> <img src="./../images/google.png" alt="Google" /></a>
+       <a href="https://x.com/?lang=en" target="_blank"> <img src="./../images/twitter.png" alt="Twitter" /></a>
+      </div>
     </div>
-     <div class="map">
-            <h2 class="map-heading">Find Us on Google Maps</h2>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121042.54456216369!2d73.64501374237979!3d18.547894198124688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf9e0620d971%3A0x5b56f09c8e1b5d14!2sInstamart!5e0!3m2!1sen!2sin!4v1750765167303!5m2!1sen!2sin"
-                class="map-box">
-            </iframe>
-        </div>
-       </div>
-    <div class="footer-container">
+  </div>
+
+ </div>
+ <div class="footer-container">
         <div class="footer">
             <div class="about">
                 <img src="../images/home-images/footer-logo.png" alt="logo">
@@ -192,5 +169,6 @@
         </div>
     </div>
 
+  
 </body>
 </html>

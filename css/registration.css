@@ -1,0 +1,123 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  
+}
+*{
+  box-sizing: border-box;
+}
+.container{
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color:#f0f0f0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 50px;
+    }
+
+    .register-box {
+      margin-top: 100px;
+      background:#ffe6e6;
+      padding: 40px;
+      border-radius: 15px;
+      width: 350px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      animation: slideIn 0.8s ease;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .register-box h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .register-box input[type="text"],
+    .register-box input[type="email"],
+    .register-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      transition: border 0.3s;
+    }
+
+    .register-box input:focus {
+      border-color: #ff5722;
+      outline: none;
+    }
+
+    .register-box button {
+      width: 100%;
+      padding: 12px;
+      text-decoration: none;
+      border: none;
+      background-color: rgb(255, 107, 53);
+      color: white;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .register-box button a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .register-box button:hover {
+       background-color: #cc5900;
+      transform: scale(1.03);
+    }
+
+    .login-link {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .login-link a {
+      text-decoration: none;
+      color: #ff5722;
+      font-weight: bold;
+    }
+
+    .login-link a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 570px) {
+    .register-box {
+        width: 90%;
+      padding:20px;
+    border-radius: 10px;   
+   }
+     .body {
+    background-position: center;
+   background-size: cover;
+   padding:20px;
+   
+}
+.register-box h2{
+   font-size: 22px;
+}
+.register-box input[type="text"],
+    .register-box input[type="email"],
+    .register-box input[type="password"],
+    .register-btn{
+      font-size: 14px;
+      padding: 10px;
+    }
+    }
+  

@@ -1,6 +1,16 @@
 body{
  background-color: #f0f0f0; 
+ margin: 0px;
+ padding: 0px;
 }
+*{
+    box-sizing: border-box;
+}
+.nav-links li:nth-child(2) a {
+  color: rgb(255, 107, 53);
+  text-decoration: underline;
+}
+
 .btn{
     height: 100px;
     width: 1000px;
@@ -37,8 +47,8 @@ a{
 .btn1:hover{
     color:black;
     background-color: rgb(255,107,53);
-    height:35px ;
-    width: 95px;
+   transform: scale(1.1);
+   transition: all 0.5s ease;
     box-shadow: 0px 0px 5px 5px rgb(248, 214, 151);
     
 }
@@ -59,7 +69,7 @@ h2{
 .menu{
     font-family:  Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin-top: 1px;
+    margin-top: 70px;
     
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ; */
 
@@ -137,11 +147,7 @@ h1{
     width: 250px;
     border-radius: 15px 15px 0px 0px;
 }
-.drink1img:hover{
-    height: 190px;
-    width: 250px;
 
-}
 h4{
     font-size:23px;
     text-align: center;
@@ -160,29 +166,22 @@ h4{
     height: 40px;
     width: 140px;
     background-color: rgb(255,107,53);
-    border: 2px solid rgb(255,107,53);
+    border: 1px solid rgb(255,107,53);
     border-radius: 15px;
     font-weight: bold;  
 }
 .cart-button:hover{
-    height: 45px;
-    width: 145px;
-    background-color: red;
-    box-shadow: 0px 0px 5px 5px rgb(236, 192, 118) ;
+     transform: scale(1.04);
+   transition: all 0.3s ease;
+    background-color: #cc5900;
 }
 .cart-button a{
     color: white;
     font-size: 15px;
     height: 40px;
     width: 140px;
-    background-color: rgb(255,107,53);
-    border: 2px solid rgb(255,107,53);
     border-radius: 15px;
     font-weight: bold;  
-}
-.cart-button:hover a{
-    background-color: red;
-    border: 0px red;
 }
 
 .button{
