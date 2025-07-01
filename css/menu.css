@@ -5,6 +5,9 @@ body{
  padding: 0px;
   
 }
+*{
+    box-sizing: border-box;
+}
 .nav-links li:nth-child(2) a {
   color: rgb(255, 107, 53);
   text-decoration: underline;

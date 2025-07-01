@@ -800,9 +800,9 @@ body {
     border-radius: 0px 0px 0px 25px;
     width: 270px;
     backdrop-filter: blur(4px);
-    background-color: rgba(255, 255, 255, 0.4);
-    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.95);
-    transition: all linear 1s;
+    background-color:rgba(255, 255, 255, 0.95);
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.7);
+     transition: all linear 1s;
   }
 
   .sidebar-menu .btn-two {
