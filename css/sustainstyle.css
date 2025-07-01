@@ -60,6 +60,10 @@ a {
 }
 
 .earth {
+    height: 400px;
+    width: 400px;
+
+
     margin-left: 0px;
 }
 
@@ -146,7 +150,7 @@ a {
         flex-direction: column;
     }
 }
- 
+
 .wiki-heading-container {
     margin-top: 0px;
 }
@@ -181,18 +185,24 @@ a {
 .wikipedia-giftcard {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 60px;
+    padding: 20px;
 }
 
 .wiki-link {
-    margin: 10px;
+    width: 100%;
+    padding: 20px;
 }
 
+.wiki-link iframe{
+    width: 100%;
+}
+ 
 .color {
     color: rgb(128, 62, 12);
 }
- 
+
 .giftCard {
     background-color: aquamarine;
     padding: 30px;
@@ -201,7 +211,6 @@ a {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
-    /* border: 1px solid black; */
     margin: 10px;
 }
 
@@ -248,7 +257,19 @@ h2 {
 
 
 @media (max-width:600px) {
-    iframe{
-        width:550px;
+    iframe {
+        width: 500px;
+        /* height: fit-content; */
     }
-}
+
+    .earth{
+        height: 300px;
+        width: 300px;
+        margin-left: 56px;
+    }
+
+    .btn1-btn2 {
+        margin-bottom: 0px;
+    }
+
+} 
