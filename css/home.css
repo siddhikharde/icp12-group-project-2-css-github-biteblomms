@@ -701,7 +701,9 @@ body {
   justify-content: center;
   color: rgb(148, 139, 139);
   margin-bottom: 40px;
-  font-size: 15px
+  font-size: 15px;
+  text-align: center;
+  padding: 0px 20px;
 }
 
 .social-media ul{
@@ -802,8 +804,8 @@ body {
     width: 270px;
     backdrop-filter: blur(4px);
     background-color: rgba(255, 255, 255, 0.4);
-    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.7);
-    transition: all linear 1.2s;
+    box-shadow: 0 1px 6px rgba(255, 255, 255, 0.95);
+    transition: all linear 1s;
   }
 
   .sidebar-menu .btn-two {
