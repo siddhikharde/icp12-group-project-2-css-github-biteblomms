@@ -6,7 +6,7 @@
 - Explore the restaurant's offline services
 - View sustainability efforts and contact info
 
-👉 **Live Website:** []()
+ ## 👉 Live Website: []()
 ---
 
 ## 🖼️ Homepage Screenshot
@@ -31,7 +31,7 @@
 
 ## 📂 Folder Structure
 
-![folder structure screenshot](./images/)
+![folder structure screenshot](./images/home-images/folder-struct.png)
 
 
 
