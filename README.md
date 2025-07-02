@@ -23,8 +23,6 @@
 - Customer favorites section with ratings and prices
 - About, Contact, and Sustainability pages
  
- 
-
 ## 💻 Tech Stack
 - HTML5
 - CSS3
@@ -51,8 +49,7 @@ cd byteblooms
 2️⃣ **Open index.html in your browser.**
 
 ## Contributors
-<a href="https://github.com/siddhikharde/icp12-group-project-2-css-github-biteblomms/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=siddhikharde/icp12-group-project-2-css-github-biteblomms" />
-</a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+<a href="https://github.com/pratiksha950/icp12-group-project-2-css-github-biteblomms/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pratiksha950/icp12-group-project-2-css-github-biteblomms" />
+</a>
