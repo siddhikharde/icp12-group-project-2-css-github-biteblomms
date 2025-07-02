@@ -1,30 +1,45 @@
 body {
     margin: 10px;
-    margin-top: 0;
+    margin-top: 60px;
     padding: 20px;
-    margin-left: 120px;
-    margin-right: 120px;
+    padding: 0px;
+    margin: 0px;
     font-family: Georgia, serif;
     background-color: #f0f0f0;
+   
+}
+*{
+    box-sizing: border-box;
+}
+.nav-links li:nth-child(3) a {
+  color: rgb(255, 107, 53);
+  text-decoration: underline;
+}
+.cart-heading{
+    padding-top: 80px;
     text-align: center;
+    color: rgb(255, 107, 53);
 }
 
 .cart-container {
+   padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+     text-align: center;
+     gap: 100px;
 }
 
 .cart-card {
     width: 320px;
-    height: 190px;
+    height: auto;
     background-color: #fff7ee;
     margin-top: 3px;
     border: 2px solid #ffe0c2;
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     box-shadow: 0 4px 20px rgba(255, 165, 0, 0.1);
 }
 
@@ -76,6 +91,10 @@ body {
 .invoice-container {
     display: flex;
     justify-content: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .invoice-box {
@@ -97,7 +116,7 @@ body {
 }
 
 .row {
-    width: 300px;
+  
     margin-top: 15px;
     margin-bottom: 15px;
     border: 1px solid rgb(76, 74, 74);
@@ -146,6 +165,7 @@ body {
 .btn {
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .link {
@@ -153,15 +173,25 @@ body {
     color: rgb(255, 255, 255);
 }
 
-@media (max-width: 570px) {
-    .card {
-        width: 200px;
-        height: 190px;
-    }
-
+@media (max-width: 560px) {
+  
     .cart-container {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        gap: 30px;
+      
+    }
+
+    .cart-card {
+        width: auto;
+        height:auto;
+        margin-bottom: 20px;
+    }
+    .invoice-container{
+        padding:20px;
+    }
+    .invoice-box{
+        width: 100%;
+        height: auto;
     }
 }

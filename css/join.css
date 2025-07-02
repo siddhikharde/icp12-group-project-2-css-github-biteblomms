@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.formR{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainjoin{
+      width: 400px;
+      height: 400px;
+      background-color: rgb(226, 212, 212);
+      border: 2px rgb(107, 91, 91);
+      border: 2px black;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+ 
