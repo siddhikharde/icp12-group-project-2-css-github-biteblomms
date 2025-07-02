@@ -126,6 +126,23 @@ h1{
     cursor: pointer;
     }
 }
+@media (min-width:360px) and  (max-width:500px){
+    .btn{
+    height: 70px;
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 0%;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+     gap: 8px;
+    cursor: pointer;
+    }
+}
+.btn1{
+    text-align: center;
+}
 /* Cold drink */
 /* Drink 1 */
 .drink1{
