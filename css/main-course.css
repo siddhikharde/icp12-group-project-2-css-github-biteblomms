@@ -57,15 +57,8 @@ h2{
 }  
 .menu{
     font-family:  Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-<<<<<<< HEAD:css/main-course.css
-    margin-top: 70px;
-    
-=======
-    margin-top: 1px;  
->>>>>>> bbb64f8d9c490aece6a623c9bb4e530823cbf687:css/main course.css
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ; */
-
+    text-align: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ; */
+}
 .specification1{
     color: rgb(17,24,39);
     text-align: center;
