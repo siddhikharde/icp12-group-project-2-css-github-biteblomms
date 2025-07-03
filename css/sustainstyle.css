@@ -8,11 +8,16 @@ a {
     color: black;
 }
 
-.sustain {
+.sustain-margin {
     margin-top: 60px;
+}
+
+.sustain {
+    margin-top: 0px;
     background-image: url(../images/back.svg);
     background-size: cover;
     padding-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 #spanSustain {
@@ -75,12 +80,12 @@ a {
     margin-left: 0px;
 }
 
-.earth img{
-    width:100%;
+.earth img {
+    width: 100%;
     height: 100%;
 }
 
-.line1Line2{
+.line1Line2 {
     width: 600px;
 }
 
@@ -175,26 +180,26 @@ a {
     color: rgb(255, 64, 0);
 }
 
-
-
 .wikipedia-giftcard {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 60px;
     padding: 20px;
 }
 
 .wiki-link {
     width: 800px;
+    height: 400px;
     padding: 20px;
 }
 
-.wiki-link iframe{
+.wiki-link iframe {
     width: 100%;
+    height: 100%;
 
 }
- 
+
 .color {
     color: rgb(128, 62, 12);
 }
@@ -241,7 +246,7 @@ h2 {
     color: #023013;
 }
 
-.buyButton {
+.buyButton  {
     cursor: pointer;
     background-color: #266c48;
     color: white;
@@ -249,4 +254,67 @@ h2 {
     margin-top: 15px;
     border: none;
     border-radius: 8px;
+}
+
+.buyButton a {
+    color: white;
+}
+
+@media (max-width:425px) and (min-width:320px) {
+    .sustain-margin {
+        margin-top: 36px;
+    }
+
+    .ecoClass {
+        margin-top: 0px;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 900;
+    }
+
+    .ecoLine {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .earth {
+        height: 312px;
+        width: 340px;
+        margin-left: 0px;
+    }
+
+    .line1Line2 {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn1-btn2 {
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .wikipedia-giftcard {
+        margin-top: 0px;
+    }
+
+    .wiki-link {
+        width: 800px;
+        height: 360px;
+    }
+
+    .giftCard {
+        width: 400px;
+        height: 340px;
+        margin: 10px;
+        padding-top: 0px;
+    }
+
+    .pratik {
+        margin-left: 2px;
+        margin-right: 3.2px;
+    }
 }

@@ -12,15 +12,20 @@ a {
     color: black;
 }
  
-.food-logo {
-    display: flex;
+.fooddiv{
+       display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
+    margin-top: 40px;
+}
+.food-logo {
+    height: 580px;
+    width: 600px;
 }
 
 #logoimage {
-    height: 580px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
     border: none;
 }
 
@@ -41,7 +46,6 @@ a {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 #seed {
     font-size: 30px;
@@ -76,16 +80,49 @@ h3 {
     text-align: center;
 }
 
-p {
+.sustainable-foods  p {
     padding: 6px;
     font-size: large;
-    line-height: 10pxpx;
-
 }
  
 .sustainable-foods:hover {
     box-shadow: 2px 4px 9px 1px rgb(52, 50, 50);
     transition: 0.2s;
     transform: scale(1.05);
+}
+
+@media (max-width:425px) and (min-width:320px){
+    .food-logo {
+    height: 380px;
+    width: 400px;
+}
+
+.offer {
+    font-size: 20px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.line {
+    font-size: 16px;
+}
+#seed {
+    font-size: 26px;
+}
+.sustainable-foods {
+    height: 540px;
+    width: 380px;
+    border: 2px solid black;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding: 9px;
+    margin-bottom: 26px;
+}
+
+.sustainable-foods  p {
+    padding:2px;
+}
+ 
+    
 }
 
