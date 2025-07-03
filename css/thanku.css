@@ -108,9 +108,22 @@ a{
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: rgb(255,107,53);
         font-size: 20px;
-        padding: 100px;
+        padding: 50px;
         font-weight:bold;
         text-align: center;
+
     }
 
+}
+@media (max-width:360px) {
+  .submit {
+    padding: 20px;
+
+  } 
+  .submit p {
+    font-size: 14px;
+  }  
+  .back {
+    font-size: 20px;
+  } 
 }
