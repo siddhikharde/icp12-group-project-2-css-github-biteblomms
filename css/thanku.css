@@ -1,120 +1,32 @@
 body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f0f0f0; 
-    
 }
-.body{
-    color: black;
-    height: 700px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.submit{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255,107,53);
-    font-size: 50px;
-    font-weight:bold;
+.thankudiv{
     text-align: center;
 }
+
+.word{
+    color: rgb(173, 89, 33);
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 20px;
+}
+.lineappreciated{
+    color: rgb(194, 58, 0);
+    font-size: 30px;
+    font-weight:400;
+    margin: 20px;
+}
+.backbtn{
+        font-size: 30px;
+}
+
 a{
     text-decoration: none;
     color: black;
-}
-.back{
-    height: 50px;
-    width: 300px;
-    text-align: center;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    margin: 0%;
-    font-size: 30px;
-    padding-left: 200px;
-    padding-top: 20px;
-}
-@media (max-width:700px){
-    .submit{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255,107,53);
-    font-size: 30px;
-   transform: scale(1.1);
-   transition: all 0.5s ease;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.back{
-    height: 50px;
-    width: 300px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0%;
-    font-size: 30px;
-    padding-left: 90px;
-    padding-top: 15px;
-}
-}
-body{
-    background-color: #f0f0f0; 
-    
-}
-.body{
-    color: black;
-    height: 700px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.submit{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255,107,53);
-    font-size: 50px;
-    font-weight:bold;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.back{
-    height: 50px;
-    width: 300px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0%;
-    font-size: 30px;
-    padding-left: 200px;
-    padding-top: 20px;
-}
-@media (max-width:700px){
-    .submit{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(255,107,53);
-    font-size: 30px;
-   transform: scale(1.1);
-   transition: all 0.5s ease;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.back{
-    height: 50px;
-    width: 300px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0%;
-    font-size: 30px;
-    padding-left: 90px;
-    padding-top: 15px;
-}
 }
